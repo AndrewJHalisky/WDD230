@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Andrew Halisky's Portal for Brigham Young University-Idaho: Web Frontend Development WDD 230">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="indexstyles/indexsmall.css">
+    <link rel="stylesheet" href="indexstyles/indexmedium.css">
+    <link rel="stylesheet" href="indexstyles/index.css">
+    <link rel="stylesheet" href="indexstyles/mainindex.css">
     <title>Web Frontend Development WDD 230 Lesson Portal</title>
 </head>
 <body>
     <header>
-        <div style="width:900px; height:620px; background-color:rgb(113, 51, 113)">
-            <img src="meatdctempleopenhouse.png" alt="Me at the DC Temple Open House" height="450" width="300">
+        <div class="image">
+            <img src="meatdctempleopenhouse.png" alt="Me at the DC Temple Open House">
+        </div>
+        <div class="name">
             <h1>Andrew Halisky</h1>
         </div>
     </header>
@@ -31,8 +36,13 @@
         <p></p>
     </main>
     <footer>
-        <div style="width:900px; height:100px; background-color:rgb(113, 51, 113)">
-            <p>&copy; 2023 Andrew Halisky All Rights Reserved</p>
+        <div class="modified">
+            <p id="last-modified">&copy; 2023 Andrew Halisky All Rights Reserved</p>
+        </div>
+        <div class="script">
+            <script>
+                document.write("Last modified on" + " " +document.lastModified);
+            </script>
         </div>
     </footer>
 </body>

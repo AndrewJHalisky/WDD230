@@ -1,0 +1,15 @@
+header div, footer div {
+    margin: 0 auto;
+}
+
+h1, main h2, main li{
+    margin: 0 auto;
+}
+
+main h2, main li{
+    width: 10%;
+}
+
+footer{
+    text-align: center;
+}
