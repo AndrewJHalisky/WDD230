@@ -1,0 +1,230 @@
+.target-audience{
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 450px;
+    height: 200px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #454545;
+    background-color: #93b7be
+}
+
+.intro, .design{
+    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 450px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    color: #454545;
+    background-color: #93b7be
+}
+
+.personas img{
+    display: inline-block;
+    height: 530px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main img{
+    display: inline-block;
+    height: 530px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3{
+    font-family: 'Pontano Sans', sans-serif;
+    text-align: center;
+}
+
+footer{
+    font-family: 'Gudea', sans-serif;
+    text-align: center;
+}
+
+a, p{
+    font-family: 'Sarala', sans-serif;
+    font-size: large;
+}
+
+.personas img{
+    display: inline-block;
+    height: 230px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main img{
+    display: inline-block;
+    height: 130px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.personas{
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #454545;
+    background-color: #d5c7bc;
+}
+
+.purpose{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: #785964;
+    background-color: #d5c7bc;
+}
+
+main .hank-hardware-owner{
+    display: inline-block;
+    background-color: #785964;
+    color: #d5c7bc;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+}
+
+main .julie-restauranteur{
+    display: inline-block;
+    background-color: #785964;
+    color: #d5c7bc;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+}
+
+.scenarios{
+    display: inline-block;
+    width: 400px;
+    height: 1300px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    color:#d5c7bc;
+    background-color: #454545;
+}
+
+main img{
+    display: inline-block;
+    height: 430px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px
+}
+
+.colors{
+    font-family: 'Sarala', sans-serif;
+    color: #454545;
+}
+
+.aqua-blue{
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #93b7be;
+    color: #454545;
+    border-radius: 15px;
+}
+
+.teal{
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #454545;
+    border-radius: 15px;
+}
+
+.tan{
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #d5c7bc;
+    color: #454545;
+    border-radius: 15px;
+}
+
+.brown{
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #785964;
+    color: #d5c7bc;
+    border-radius: 15px;
+}
+
+.dark-brown{
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #454545;
+    color: #d5c7bc;
+    border-radius: 15px;
+}
+
+.font-1{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 30px;
+    color: #454545;
+    background-color: #d5c7bc;
+}
+
+.font-2{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 30px;
+    color: #454545;
+    background-color: #93b7be;
+}
+
+.font-3{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin-top: 30px;
+    color: #d5c7bc;
+    background-color:#785964
+}
+

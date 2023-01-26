@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+@media only screen and (min-width: 700px) and (max-width: 1199px){
+
+    .target-audience{
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 900px;
+        height: 200px;
+        padding: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: #454545;
+        background-color: #93b7be
+    }
+
+    .intro, .design{
+        display: inline-block;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 900px;
+        height: 150px;
+        padding: 10px;
+        text-align: center;
+        color: #454545;
+        background-color: #93b7be
+    }
+
+    .personas img{
+        display: inline-block;
+        height: 530px;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main img{
+        display: inline-block;
+        height: 530px;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px
+    }
+
+    h1, h2, h3{
+        font-family: 'Pontano Sans', sans-serif;
+        text-align: center;
+    }
+
+    footer{
+        font-family: 'Gudea', sans-serif;
+        text-align: center;
+    }
+
+    a, p{
+        font-family: 'Sarala', sans-serif;
+        font-size: large;
+    }
+
+    .personas{
+        display: inline-block;
+        width: 900px;
+        height: 50px;
+        margin-top: 30px;
+        padding: 20px;
+        text-align: center;
+        color: #454545;
+        background-color: #d5c7bc;
+    }
+
+    .purpose{
+        display: inline-block;
+        width: 900px;
+        height: 130px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+        color: #785964;
+        background-color: #d5c7bc;
+    }
+
+    main .hank-hardware-owner{
+        display: inline-block;
+        background-color: #785964;
+        color: #d5c7bc;
+        border-radius: 20px;
+        margin-top: 50px;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 550px;
+        height: 700px;
+    }
+
+    main .julie-restauranteur{
+        display: inline-block;
+        background-color: #785964;
+        color: #d5c7bc;
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 550px;
+        height: 700px;
+    }
+
+    .scenarios{
+        display: inline-block;
+        width: 900px;
+        height: 800px;
+        margin-top: 100px;
+        border-radius: 20px;
+        padding: 20px;
+        color:#d5c7bc;
+        background-color: #454545;
+    }
+
+    .colors{
+        font-family: 'Sarala', sans-serif;
+        color: #454545;
+    }
+
+    .aqua-blue{
+        display: inline-block;
+        width: 500px;
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+        background-color: #93b7be;
+        color: #454545;
+        border-radius: 15px;
+    }
+
+    .teal{
+        display: inline-block;
+        width: 500px;
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+        color: #454545;
+        border-radius: 15px;
+    }
+
+    .tan{
+        display: inline-block;
+        width: 500px;
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+        background-color: #d5c7bc;
+        color: #454545;
+        border-radius: 15px;
+    }
+
+    .brown{
+        display: inline-block;
+        width: 500px;
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+        background-color: #785964;
+        color: #d5c7bc;
+        border-radius: 15px;
+    }
+
+    .dark-brown{
+        display: inline-block;
+        width: 500px;
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+        background-color: #454545;
+        color: #d5c7bc;
+        border-radius: 15px;
+    }
+
+    .font-1{
+        display: inline-block;
+        width: 700px;
+        height: 150px;
+        padding: 20px;
+        margin-right: 30px;
+        margin-top: 30px;
+        color: #454545;
+        background-color: #d5c7bc;
+    }
+
+    .font-2{
+        display: inline-block;
+        width: 700px;
+        height: 150px;
+        padding: 20px;
+        margin-right: 30px;
+        margin-top: 30px;
+        color: #454545;
+        background-color: #93b7be;
+    }
+
+    .font-3{
+        display: inline-block;
+        width: 700px;
+        height: 150px;
+        padding: 20px;
+        margin-right: 30px;
+        margin-top: 30px;
+        color: #d5c7bc;
+        background-color:#785964
+    }
+
+
+}

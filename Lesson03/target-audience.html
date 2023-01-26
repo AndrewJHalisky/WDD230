@@ -4,40 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The target audience page for the project. This project is for Lesson 03 of the WDD 230 Frontend Development class.">
-    <link rel="stylesheet" href="lesson03css/chamber_of_commerce_small.css">
-    <link rel="stylesheet" href="lesson03css/chamber_of_commerce_medium.css">
-    <link rel="stylesheet" href="lesson03css/chamber_of_commerce.css">
-    <link rel="stylesheet" href="lesson03css/chamber_of_commerce_main.css">
+    <meta name="description" content="The design layout or reference page for the project. This project is for Lesson 03 of the WDD 230 Frontend Development class.">
+    <link rel="stylesheet" href="styles/chamber_of_commerce_small.css">
+    <link rel="stylesheet" href="styles/chamber_of_commerce_medium.css">
+    <link rel="stylesheet" href="styles/chamber_of_commerce.css">
+    <link rel="stylesheet" href="styles/chamber_of_commerce_main.css">
+    <link rel="font" href="fonts/Gudea/Gudea-Regular.ttf">
+    <link rel="font" href="fonts/Pontano_Sans/PontanoSans-Regular.ttf">
+    <link rel="font" href="fonts/Sarala/Sarala-Regular.ttf">
     <title>Tri-Hampton Chamber of Commerce Audience</title>
 </head>
 <body>
-    <header>
+    <header class="target-audience">
         <a href="chamber_of_commerce.html">Home</a>
         <a href="target-audience.html">Target Audience</a>
         <a href="design.html">Design</a>
+        <h1>Target Audience</h1>
+        <p>The Target audiences are Local/community businesses who are looking to unite with other businesses to grow stronger and have a good impact on their community.</p>
     </header>
-    <main>
-        <header class="target-audience">
-            <h2>Target Audience</h2>
-            <p>
-                The Target audiences are Local/community businesses who are looking to unite with other businesses to grow stronger and have a good impact on their community.
-            </p>
-        </header>
-        <main class="personas">
-            <h3>Personas</h3>
-            <div class="hank-hardware-owner">
-                <img src="hank_hardwarestore_owner.png" width="350" height="550" alt="Hank the Hardware Store owner">
-                <h3>Hank the Hardware Store owner</h3>
-                <p>"I need to network with other businesses to keep my business running!"</p>
-            </div>
-            <div class="julie-restauranteur">
-                <img src="julie_restauranteur.png" width="300" height="550"  alt="Julie the Restuaranteur">
-                <h3>Julie the Restauranteur</h3>
-                <p>"I want to show my customers that I am dedicated to my community by being part of the Chamber of Commerce!"</p>
-            </div>
-        </main>
-        <footer class="scenarios">
+    <main class="personas">
+        <h3>Personas</h3>
+        <div class="hank-hardware-owner">
+            <img src="hank_hardwarestore_owner.png" alt="hank-hardwarestore-owner">
+            <h3>Hank the Hardware Store owner</h3>
+            <p>"I need to network with other businesses to keep my business running!"</p>
+        </div>
+        <div class="julie-restauranteur">
+            <img src="julie_restauranteur.png" alt="julie-the-restuaranteur">
+            <h3>Julie the Restauranteur</h3>
+            <p>"I want to show my customers that I am dedicated to my community by being part of the Chamber of Commerce!"</p>
+        </div>
+    </main>
+    <footer>
+        <div class="scenarios">
             <h3>Scenarios</h3>
             <div class="angelos-pizza">
                 <h3>Angelo's Pizza</h3>
@@ -80,9 +79,7 @@
                     members of the chamber on the same topic.
                 </p>
             </div>
-        </footer>
-    </main>
-    <footer>
+        </div>
         <div class="copyright-footer">
             <p>&copy 2023 - Andrew Halisky</p>
             <script>
