@@ -18,6 +18,7 @@
 
     .nav-bar, .font-links{
         display: flex;
+        flex-direction: row;
         text-align: center;
         background-color: #d3e5e5; 
     }

@@ -1,7 +1,12 @@
-.target-audience{
+[class*="col-"] {
+    width: 100%;
+  }
+
+  .target-audience{
     display: block;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 450px;
-    height: 300px;
+    height: 230px;
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -12,14 +17,12 @@
 
 .nav-bar{
     display: flex;
-    flex-direction: column;
     text-align: center;
     background-color: #d3e5e5; 
 }
 
 a{
     display: flex;
-    flex-direction: column;
     text-align: center;
     color: #454545;
     margin-left: auto;
@@ -33,6 +36,7 @@ a:link {
 }
 
 .nav-bar a:hover, .font-links a:hover{
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     background-color: #eedfd3;
@@ -46,7 +50,6 @@ a:link {
 
 .nav-bar, .font-links{
     display: flex;
-    flex-direction: column;
     text-align: center;
     background-color: #d3e5e5; 
 }
@@ -55,7 +58,7 @@ a:link {
     display: inline-block;
     grid-template-columns: 1fr 1fr 1fr;
     width: 450px;
-    height: 280px;
+    height: 230px;
     padding: 10px;
     text-align: center;
     color: #454545;
@@ -162,7 +165,7 @@ main .julie-restauranteur{
 .scenarios{
     display: inline-block;
     width: 400px;
-    height: 1400px;
+    height: 1300px;
     margin-top: 60px;
     border-radius: 20px;
     padding: 20px;
