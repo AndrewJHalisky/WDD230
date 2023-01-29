@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+
+header, footer{
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    background-color: #d3e5e5;
+    font-family: 'Figtree', sans-serif;
+    font-size: 12px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.event, .weather, .join{
+    font-family: 'Figtree', sans-serif;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-color: gainsboro;
+    margin-top: 30px;
+}
+
+.mascot-and-sitename{
+    font-family: 'Figtree', sans-serif;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    background-color: gainsboro;
+    margin-top: 30px;
+}
+
+.news{
+    font-family: 'Figtree', sans-serif;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    background-color: gainsboro;
+    margin-top: 30px;
+}
+
+.spotlight1{
+    font-family: 'Figtree', sans-serif;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-color: gainsboro;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.spotlight2{
+    font-family: 'Figtree', sans-serif;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-color: gainsboro;
+    margin-bottom: 30px;
+}
+
+ul {
+    text-decoration: none;
+    margin-left: 2vw;
+    border-right: 1px solid black;
+    display: flex
+
+}
+
+ul li a{        
+    text-decoration: none;
+    border: none;
+    border-right: 1px solid black;
+    display: flex
+}

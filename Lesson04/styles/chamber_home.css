@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+@media only screen and (min-width: 1900px){
+
+    header, footer{
+        display: inline-block;
+        width: 1800px;
+        height: 260px;
+        background-color: #d3e5e5;
+        font-family: 'Figtree', sans-serif;
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+
+    .logo-top{
+        margin-right: 1300px;
+        margin-top: 10px;
+    }
+
+    .logo-bottom{
+        margin-right: 1300px;
+        margin-top: 20px;
+    }
+    
+    .slogan{
+        margin-top: -190px;
+    }
+
+    main .left-column{        
+        font-family: 'Figtree', sans-serif;
+        display: inline-block;
+    }
+
+    .event, .weather, .join{
+        width: 600px;
+        height: 350px;
+        background-color: gainsboro;
+    }
+
+    main .middle-column{
+        font-family: 'Figtree', sans-serif;
+        display: inline-block;
+    }
+
+    .mascot-and-sitename{
+        width: 910px;
+        height: 715px;
+        background-color: gainsboro;
+    }
+
+    .news{
+        width: 910px;   
+        height: 715px;
+        background-color: gainsboro
+    }
+
+    .spotlight1, .spotlight2, .spotlight3{
+        width: 450px;
+        height: 350px;
+        background-color: gainsboro;
+    }
+
+    main .right-column{
+        font-family: 'Figtree', sans-serif;
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+
+    ul {
+        text-decoration: none;
+        margin-left: 2vw;
+        border-right: 1px solid black;
+        display: flex
+
+    }
+
+    ul li a{        
+        text-decoration: none;
+        border: none;
+        border-right: 1px solid black;
+        display: flex
+    }
+
+}
