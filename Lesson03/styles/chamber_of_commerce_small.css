@@ -7,7 +7,7 @@
     margin-right: auto;
     text-align: center;
     color: #454545;
-    background-color: #b1d1d3
+    background-color: #d3e5e5;
 }
 
 .nav-bar{
@@ -59,7 +59,7 @@ a:link {
     padding: 10px;
     text-align: center;
     color: #454545;
-    background-color: #b1d1d3
+    background-color: #d3e5e5;
 }
 
 .personas img{
@@ -190,7 +190,7 @@ main img{
     height: 30px;
     margin-right: 10px;
     margin-top: 10px;
-    background-color: #b1d1d3;
+    background-color: #d3e5e5;
     color: #454545;
     border-radius: 15px;
 }
@@ -255,7 +255,7 @@ main img{
     padding: 20px;
     margin-top: 30px;
     color: #454545;
-    background-color: #b1d1d3;
+    background-color: #d3e5e5;
 }
 
 .font-3{

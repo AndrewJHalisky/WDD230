@@ -61,17 +61,28 @@ img {
     margin-bottom: 30px;
 }
 
-ul {
-    text-decoration: none;
-    margin-left: 2vw;
-    border-right: 1px solid black;
-    display: flex
-
+nav ul li a:hover{
+    background-color: whitesmoke;
 }
 
-ul li a{        
-    text-decoration: none;
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
     border: none;
-    border-right: 1px solid black;
-    display: flex
+    font-size: 2rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{  
+    display: block;      
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid rgba();
+    color: #333
 }

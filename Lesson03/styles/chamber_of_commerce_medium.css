@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
-@media only screen and (min-width: 700px) and (max-width: 1199px){
+@media only screen and (min-width: 650px) and (max-width: 949px){
 
     .target-audience{
         display: block;
@@ -13,7 +13,7 @@
         margin-right: auto;
         text-align: center;
         color: #454545;
-        background-color: #b1d1d3
+        background-color: #d3e5e5;
     }
 
     .intro, .design{
@@ -24,7 +24,7 @@
         padding: 10px;
         text-align: center;
         color: #454545;
-        background-color: #b1d1d3
+        background-color: #d3e5e5;
     }
 
     .personas img{
