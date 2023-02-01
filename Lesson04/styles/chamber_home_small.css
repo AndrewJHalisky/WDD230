@@ -2,10 +2,11 @@
 
 header, footer{
     display: inline-block;
-    width: 400px;
-    height: 500px;
+    width: 390px;
+    height: 450px;
     background-color: #d3e5e5;
     font-family: 'Figtree', sans-serif;
+    padding: 10px;
     font-size: 12px;
 }
 
@@ -13,6 +14,17 @@ img {
     width: 200px;
     height: 200px;
     margin-top: 20px;
+}
+
+.socialmedialinks{
+    float: right;
+    margin-top: -15px;
+    margin-right: 30px;
+}
+
+.socialmedialinks img{
+    width: 40px;
+    height: 40px;
 }
 
 .event, .weather, .join{
@@ -61,28 +73,74 @@ img {
     margin-bottom: 30px;
 }
 
+.spotlight3{display:none}
+
+.primaryNav {
+    display: flex;
+}
+
+.primaryNav li:first-child {
+	display: block;
+}
+.primaryNav li {
+	display: none;
+}
+
 nav ul li a:hover{
     background-color: whitesmoke;
 }
 
-nav button{
-    margin: .2rem 2vw;
-    background: transparent;
-    border: none;
-    font-size: 2rem;
-    color: #555;
+.open li {
+	display: block;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+
+.open #menu::before {
+	content: "X";
 }
 
-nav ul li a{  
-    display: block;      
-    padding: .8rem 2vw;
-    text-decoration: none;
-    border-top: 1px solid rgba();
-    color: #333
+#menu::before {
+	content: "≡";
+	font-size: 2rem;
 }
+
+.primaryNav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    margin-top: 70px;
+}
+
+.primaryNav li {
+	display: none;
+}
+.primaryNav a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.footer-top{
+    margin-top: -10px;
+}
+
+.primaryNav a:hover, .primaryNav a:active {
+	color: white;
+	background-color: black;
+}
+
+.open li {
+	display: block;
+}
+
+.open #menu::before {
+	content: "X";
+}
+
+
+
