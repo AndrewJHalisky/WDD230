@@ -125,7 +125,7 @@ nav ul li a:hover{
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
-.footer-top{
+.footer{
     margin-top: -10px;
 }
 
