@@ -32,11 +32,18 @@
         margin-right: 30px;
     }
 
-    .event, .weather, .join{
-        width: 450px;
-        height: 350px;
-        display: flex;
-        background-color: gainsboro;
+    .weather, .event, .join{
+        width: 430px;
+        height: 320px;
+        padding: 20px;
+        display: block;
+        background-color: #785964;
+        color: #eedfd3;
+    }
+
+    .weather img, .event img{
+        width: 170px;
+        height: 100px;
     }
 
     main .middle-column{
@@ -44,25 +51,64 @@
         display: inline-block;
     }
 
-    .mascot-and-sitename{
-        width: 910px;
-        height: 730px;
+    .middle-column img{
+        width: 455px;
+        height: 365px;
+    }
+
+    .mascot-and-sitename-row1{
         display: flex;
-        background-color: gainsboro
+    }
+
+    .mascot-and-sitename-row2{
+        display: flex;
+        margin-top: -30px;
+    }
+
+    .join-button{
+        width: 150px;
+        height: 50px;
+        margin-top: 70px;
+        background-color: #eedfd3
+    }
+
+    .spotlight1 img{
+        width: 200px;
+        height: 130px;
+    }
+
+    .spotlight2 img{
+        width: 130px;
+        height: 130px;
+        margin-top: -5px;
+    }
+
+    .spotlight1 h2, p, a, .spotlight2 h2, p, a, .spotlight3 h2, p, a{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .spotlight3 img{
+        width: 150px;
+        height: 110px;
     }
 
     .news{
-        width: 910px;   
-        height: 350px;
-        display: flex;
-        background-color: gainsboro
+        width: 880px;   
+        height: 320px;
+        display: block;
+        background-color: #785964;
+        padding: 10px;
+        color: #eedfd3
     }
 
     .spotlight1, .spotlight2, .spotlight3{
-        width: 450px;
-        height: 350px;
-        display: flex;
-        background-color: gainsboro;
+        width: 430px;
+        height: 320px;
+        padding: 20px;
+        display: block;
+        background-color: #785964;
+        color: #eedfd3
     }
 
     main .right-column{
@@ -113,6 +159,13 @@
 
     .footer-bottom{
         font-size: medium;
+    }
+
+    #date{
+        font-size: medium;
+        color: black;
+        float: left;
+        text-align: center;
     }
 
 }
