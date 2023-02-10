@@ -27,13 +27,38 @@ img {
     height: 40px;
 }
 
-.event, .weather, .join{
+.event, .weather{
     font-family: 'Figtree', sans-serif;
     display: inline-block;
     width: 400px;
-    height: 200px;
-    background-color: gainsboro;
+    height: 300px;
+    padding: 20px;
+    background-color: #785964;
+    color: #eedfd3;
     margin-top: 30px;
+}
+
+.weather img, .event img{
+    width: 170px;
+    height: 100px;
+}
+
+.join{
+    font-family: 'Figtree', sans-serif;
+    display: inline-block;
+    width: 400px;
+    height: 220px;
+    background-color: #785964;
+    padding: 20px;
+    color: #eedfd3;
+    margin-top: 30px;
+}
+
+.join-button{
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    background-color: #eedfd3
 }
 
 .mascot-and-sitename{
@@ -41,7 +66,7 @@ img {
     display: inline-block;
     width: 400px;
     height: 600px;
-    background-color: gainsboro;
+    background-color: #785964;
     margin-top: 30px;
 }
 
@@ -49,8 +74,10 @@ img {
     font-family: 'Figtree', sans-serif;
     display: inline-block;
     width: 400px;
-    height: 600px;
-    background-color: gainsboro;
+    height: 450px;
+    background-color: #785964;
+    padding: 20px;
+    color: #eedfd3;
     margin-top: 30px;
 }
 
@@ -58,8 +85,10 @@ img {
     font-family: 'Figtree', sans-serif;
     display: inline-block;
     width: 400px;
-    height: 200px;
-    background-color: gainsboro;
+    height: 500px;
+    padding: 20px;
+    color: #eedfd3;
+    background-color: #785964;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -68,9 +97,16 @@ img {
     font-family: 'Figtree', sans-serif;
     display: inline-block;
     width: 400px;
-    height: 200px;
-    background-color: gainsboro;
+    height: 500px;
+    padding: 20px;
+    color: #eedfd3;
+    background-color: #785964;
     margin-bottom: 30px;
+}
+
+.spotlight1 img, .spotlight2 img{
+    width: 180px;
+    height: 150px;
 }
 
 .spotlight3{display:none}
@@ -125,6 +161,15 @@ nav ul li a:hover{
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
+main .middle-column{
+    font-family: 'Figtree', sans-serif;
+}
+
+.middle-column img{
+    width: 455px;
+    height: 365px;
+}
+
 .footer{
     margin-top: -10px;
 }
@@ -144,6 +189,13 @@ nav ul li a:hover{
 
 .footer-bottom{
     font-size: medium;
+}
+
+#date{
+    font-size: large;
+    font-weight: 600;
+    color: black;
+    text-align: center;
 }
 
 

@@ -4,7 +4,7 @@
     header, footer{
         display: inline-block;
         width: 1000px;
-        height: 220px;
+        height: 240px;
         background-color: #d3e5e5;
         padding: 15px;
         font-family: 'Figtree', sans-serif;
@@ -32,12 +32,23 @@
         margin-top: -190px;
     }
 
-    .event, .weather, .join{
+    .event, .weather{
         font-family: 'Figtree', sans-serif;
         display: inline-block;
-        width: 330px;
-        height: 200px;
-        background-color: gainsboro;
+        width: 400px;
+        height: 320px;
+        padding: 20px;
+        background-color: #785964;
+        margin-top: 30px;
+    }
+
+    .join{
+        font-family: 'Figtree', sans-serif;
+        display: inline-block;
+        width: 850px;
+        height: 300px;
+        padding: 20px;
+        background-color: #785964;
         margin-top: 30px;
     }
 
@@ -46,31 +57,52 @@
         display: inline-block;
         width: 1000px;
         height: 200px;
-        background-color: gainsboro;
+        background-color: #785964;
         margin-top: 30px;
     }
 
     .news{
         font-family: 'Figtree', sans-serif;
         display: inline-block;
-        width: 1000px;
-        height: 200px;
-        background-color: gainsboro;
+        width: 700px;
+        height: 300px;
+        background-color: #785964;;
         margin-top: 30px;
     }
 
     .spotlight1, .spotlight2, .spotlight3{
         font-family: 'Figtree', sans-serif;
         display: inline-block;
-        width: 330px;
-        height: 200px;
-        background-color: gainsboro;
+        width: 530px;
+        height: 430px;
+        background-color: #785964;;
+        color: #eedfd3;
         margin-top: 30px;
     }
 
-    img {
-        width: 200px;
-        height: 200px;
+    .spotlight1 img, .spotlight2 img, .spotlight3 img{
+        width: 180px;
+        height: 160px;
+    }
+
+    .news h2 {
+        margin-left: 30px;
+    }
+
+    .spotlight1 h2, .spotlight2 h2, .spotlight3 h2{
+        margin-left: -15px
+    }
+
+    .spotlight2 p, .spotlight2 h4{
+        margin-bottom: -7px;
+    }
+
+    .event h2, .weather h2{
+        margin-left: -15px
+    }
+
+    .weather h2, .weather p{
+        margin-top: 5px;
     }
 
     .socialmedialinks{
@@ -103,6 +135,14 @@
         display: block;
     }
 
+    .mascot-and-sitename-row1{
+        display: inline-flex;
+    }
+
+    .mascot-and-sitename-row2{
+        display: inline-flex;
+        margin-top: -30px;
+    }
 
     .open #menu::before {
         content: "X";
@@ -157,6 +197,13 @@
 
     .footer-bottom{
         font-size: medium;
+    }
+
+    #date{
+        font-size: large;
+        font-weight: 600;
+        color: black;
+        text-align: center;
     }
 
 
