@@ -49,11 +49,17 @@
                 <h2>2nd Annual Car Wash</h2>
                 <p>Join us Thursday March 9 for our 2nd annual car wash fundrasier. Proceeds go to helping businesses!</p>
             </div>
+            <div class="no-events">
+                <h2>No events currently happening</h2>
+            </div>
             <div class="weather">
                 <h2>Today's Weather</h2>
                 <img src="images/partly-cloudy.png" alt="sun-and-clouds">
                 <p>Partly Cloudy</p>
-                <p>46 F - High 50 F, Low 36 F</p>
+                <span id="current-weather"></span> F
+                <p></p>
+                Windspeed: <span id="speed"></span>
+                Temperature: <span id="temp"></span>
             </div>
             <div class="join">
                 <button class="join-button">Join today!</button>
@@ -62,19 +68,8 @@
         </div>
         <div class="middle-column">
             <div class="mascot-and-sitename-row1">
-                <div class="mascot-and-sitename-column1">
-                    <img src="images/hab-train-station.jpg" alt="train-station">
-                </div>
-                <div class="mascot-and-sitename-column2">
-                    <img src="images/addisville-richboro.jpg" alt="richboro">
-                </div>
-            </div>
-            <div class="mascot-and-sitename-row2">
-                <div class="mascot-and-sitename-column3">
-                    <img src="images/old-school-meetinghouse.jpg" alt="old-church">
-                </div>
-                <div class="mascot-and-sitename-column4">
-                    <img src="images/southampton-shoppingcenter.jpg" alt="shopping-center">
+                <div class="mascot-sitename-img">
+                    <img src="images/wdd230-org.jpg" alt="main-img">
                 </div>
             </div>
             <div class="news">
@@ -136,5 +131,6 @@
         </div>
     </footer>
 <script src="scripts/copyright.js"></script>
+<script src="scripts/windchill.js"></script>
 </body>
 </html>

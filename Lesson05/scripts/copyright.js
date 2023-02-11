@@ -15,11 +15,12 @@ const fulldate = new Intl.DateTimeFormat("en-UK", {
 }).format(currentDate);
 
 let weekDay = currentDate.getDay();
-    if (weekDay !=0 && weekDay <= 2){
-        $(".event").show();
-        $(".event-later").hide();
+    if (weekDay !=0 && weekDay <= 3){
+        document.querySelector(".event").style.display = "flex";
     }
-
+    else if (weekDay == 0 && weekDay > 3){
+        document.querySelector(".no-events").style.display = "flex";
+    }
 
 document.querySelector('#date').textContent = fulldate;
 document.querySelector('#year').textContent = currentDate.getFullYear();

@@ -32,7 +32,7 @@
         margin-top: -190px;
     }
 
-    .event, .weather{
+    .event, .weather, .no-events{
         font-family: 'Figtree', sans-serif;
         display: inline-block;
         width: 400px;
@@ -52,15 +52,6 @@
         margin-top: 30px;
     }
 
-    .mascot-and-sitename{
-        font-family: 'Figtree', sans-serif;
-        display: inline-block;
-        width: 1000px;
-        height: 200px;
-        background-color: #785964;
-        margin-top: 30px;
-    }
-
     .news{
         font-family: 'Figtree', sans-serif;
         display: inline-block;
@@ -75,6 +66,9 @@
         display: inline-block;
         width: 530px;
         height: 430px;
+        border-color: #d3e5e5;
+        border-style: solid;
+        border-width: 20px;
         background-color: #785964;;
         color: #eedfd3;
         margin-top: 30px;
@@ -139,11 +133,6 @@
         display: inline-flex;
     }
 
-    .mascot-and-sitename-row2{
-        display: inline-flex;
-        margin-top: -30px;
-    }
-
     .open #menu::before {
         content: "X";
     }
@@ -178,6 +167,11 @@
         background-color: black;
     }
 
+    .middle-column img{
+        width: 720px;
+        height: 600px;
+    }
+
     .open li {
         display: block;
     }
@@ -204,6 +198,10 @@
         font-weight: 600;
         color: black;
         text-align: center;
+    }
+
+    #temp, #speed{
+        display: inline-block;
     }
 
 
