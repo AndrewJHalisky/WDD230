@@ -1,0 +1,16 @@
+img{
+    width: 400px;
+    height: 300px;
+}
+
+.row{
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: greenyellow;
+}
+
