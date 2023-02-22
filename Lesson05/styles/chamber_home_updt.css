@@ -41,12 +41,29 @@
         color: #eedfd3;
     }
 
+    .nh-park, .tam-park, .bowlero, .restaurant, .fear{
+        background-color: #d3e5e5;
+        width: 630px;
+        height: 600px;
+        padding: 20px;
+        font-family: 'Figtree', sans-serif;
+        margin: 0 auto;
+        margin-top: 25px;
+        text-align: center;
+        display: block;
+    }
+
     .weather img, .event img{
         width: 170px;
         height: 100px;
     }
 
-    main .middle-column{
+    main img{
+        width: 400px;
+        height: 330px
+    }
+
+    main .middle-column, main h1{
         font-family: 'Figtree', sans-serif;
         display: inline-block;
     }

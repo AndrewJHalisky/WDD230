@@ -14,13 +14,5 @@ const fulldate = new Intl.DateTimeFormat("en-UK", {
     dateStyle: "full"
 }).format(currentDate);
 
-let weekDay = currentDate.getDay();
-    if (weekDay !=0 && weekDay <= 3){
-        document.querySelector(".no-events").style.display = "none";
-    }
-    else if (weekDay > 3 && weekDay == 0){
-        document.querySelector(".no-events").style.display = "flex";
-    }
-
 document.querySelector('#date').textContent = fulldate;
 document.querySelector('#year').textContent = currentDate.getFullYear();
