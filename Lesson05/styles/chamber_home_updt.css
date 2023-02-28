@@ -133,6 +133,10 @@
         border-radius: 3px;
     }
 
+    .thankyou{
+        font-family: 'Figtree', sans-serif;
+    }
+
     main textarea{
         margin-top: 20px;
         font-family: 'Figtree', sans-serif;

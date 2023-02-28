@@ -36,6 +36,24 @@
         margin-top: -190px;
     }
 
+    
+    main ul input{
+        width: 20%;
+        padding: 5px 18px;
+        margin: 5px 0;
+        font-family: 'Figtree', sans-serif;
+        border-radius: 3px;
+    }
+
+    .thankyou{
+        font-family: 'Figtree', sans-serif;
+    }
+
+    main textarea{
+        margin-top: 20px;
+        font-family: 'Figtree', sans-serif;
+    }
+
     .event, .weather, .no-events{
         font-family: 'Figtree', sans-serif;
         display: inline-block;
