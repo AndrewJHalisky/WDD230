@@ -32,13 +32,13 @@
         margin-right: 30px;
     }
 
-    .weather, .event, .join, .no-events{
+    .weather, .join, .event, .no-events{
         width: 430px;
         height: 320px;
         padding: 20px;
         display: block;
-        background-color: #785964;
-        color: #eedfd3;
+        background-color: #dac9d1;
+        color: #63503f;
     }
 
     .nh-park, .tam-park, .bowlero, .restaurant, .fear{
@@ -85,32 +85,28 @@
     }
 
     .spotlight1 img{
-        width: 200px;
-        height: 130px;
+        width: 30%;
+        height: 30%;
     }
 
     .spotlight2 img{
-        width: 130px;
-        height: 130px;
+        width: 30%;
+        height: 30%;
         margin-top: -5px;
     }
 
-    .spotlight1 h2, p, a, .spotlight2 h2, p, a, .spotlight3 h2, p, a{
-        margin-top: 10px;
-    }
-
     .spotlight3 img{
-        width: 150px;
-        height: 110px;
+        width: 30%;
+        height: 30%;
     }
 
     .news{
         width: 880px;   
         height: 320px;
         display: block;
-        background-color: #785964;
+        background-color: #dac9d1;
         padding: 20px;
-        color: #eedfd3
+        color: #63503f;
     }
 
     .spotlight1, .spotlight2, .spotlight3{
@@ -118,11 +114,24 @@
         height: 320px;
         padding: 20px;
         display: block;
+        position: absolute;
         border-color: #d3e5e5;
-        border-style: solid;
+        border-style: block;
         border-width: 30px;
-        background-color: #785964;
-        color: #eedfd3
+        background-color: #dac9d1;
+        color: #63503f;
+    }
+
+    .spotlight1{
+        top: 20px
+    }
+    
+    .spotlight2{
+        top: 360px
+    }
+
+    .spotlight3{
+        top: 820px
     }
 
     main ul input{
@@ -145,6 +154,7 @@
     main .right-column{
         font-family: 'Figtree', sans-serif;
         display: inline-block;
+        position: absolute;
         margin-left: 30px;
     }
 
@@ -201,6 +211,24 @@
 
     #temp, #speed{
         display: inline-block;
+    }
+
+    .grid .cards{
+        background-color: #eedfd3;
+        margin: 0 auto;
+        font-family: 'Figtree', sans-serif;
+        margin-top: 100px;
+        width: 500px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-gap: 80px;
+        justify-items: center;
+    }
+
+    .grid img{
+        width: 60%;
+        height: 60%;
     }
 
 }

@@ -18,7 +18,7 @@ let weekDay = currentDate.getDay();
     if (weekDay !=0 && weekDay <= 3){
         document.querySelector(".no-events").style.display = "none";
     }
-    else if (weekDay > 3 && weekDay == 0){
+    else {
         document.querySelector(".no-events").style.display = "flex";
     }
 

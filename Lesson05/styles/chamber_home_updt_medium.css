@@ -60,7 +60,8 @@
         width: 400px;
         height: 320px;
         padding: 20px;
-        background-color: #785964;
+        background-color: #dac9d1;
+        color: #785964;
         margin-top: 30px;
     }
 
@@ -70,7 +71,7 @@
         width: 850px;
         height: 300px;
         padding: 20px;
-        background-color: #785964;
+        background-color: #dac9d1;
         margin-top: 30px;
     }
 
@@ -79,7 +80,7 @@
         display: inline-block;
         width: 700px;
         height: 300px;
-        background-color: #785964;;
+        background-color: #dac9d1;
         margin-top: 30px;
     }
 
@@ -103,8 +104,8 @@
         border-color: #d3e5e5;
         border-style: solid;
         border-width: 20px;
-        background-color: #785964;;
-        color: #eedfd3;
+        background-color: #dac9d1;
+        color: #785964;
         margin-top: 30px;
     }
 
@@ -237,7 +238,5 @@
     #temp, #speed{
         display: inline-block;
     }
-
-
 }
 
