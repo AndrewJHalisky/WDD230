@@ -11,8 +11,7 @@ header, footer{
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 50%;
     margin-top: 20px;
 }
 
@@ -145,8 +144,12 @@ main textarea{
 }
 
 .spotlight1 img, .spotlight2 img{
-    width: 180px;
-    height: 150px;
+    width: 40%;
+    height: 40%;
+}
+
+.spotlight1, .spotlight2{
+    position: absolute;
 }
 
 .spotlight3{display:none}
@@ -229,6 +232,25 @@ main .middle-column{
 
 .footer-bottom{
     font-size: medium;
+}
+
+.grid .cards{
+    background-color: #eedfd3;
+    margin: 0 auto;
+    font-family: 'Figtree', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 265px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
+    grid-gap: 80px;
+    justify-items: center;
+}
+
+.grid img{
+    width: 35%;
+    height: 20%;
 }
 
 #date{

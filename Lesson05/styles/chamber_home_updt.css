@@ -53,14 +53,10 @@
         display: block;
     }
 
+
     .weather img, .event img{
         width: 170px;
         height: 100px;
-    }
-
-    main img{
-        width: 400px;
-        height: 330px
     }
 
     main .middle-column, main h1{
@@ -92,7 +88,6 @@
     .spotlight2 img{
         width: 30%;
         height: 30%;
-        margin-top: -5px;
     }
 
     .spotlight3 img{
@@ -159,8 +154,8 @@
     }
 
     img {
-        width: 250px;
-        height: 250px;
+        width: 50%;
+        height: 50%;
     }
 
     .socialmedialinks{
@@ -221,7 +216,7 @@
         width: 500px;
         padding: 20px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
         grid-gap: 80px;
         justify-items: center;
     }
