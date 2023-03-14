@@ -8,10 +8,15 @@ const userBusiness = document.querySelector('form[name="business"]');
 const memberLevel = document.querySelector('form[name="membership"]');
 
 function join() {
-    console.log('first_name');
-    console.log('last_name');
-    console.log('email');
-    console.log('phone_number');
-    console.log('business');
-    console.log('membership');
+//     console.log('first_name');
+//     console.log('last_name');
+//     console.log('email');
+//     console.log('phone_number');
+//     console.log('business');
+//     console.log('membership');
+    if (firstName != null){
+        window.location.href = "../thankyou.html";
+    } else {
+        window.alert("This field is required");
+    }
 }
