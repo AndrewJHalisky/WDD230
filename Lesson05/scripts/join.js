@@ -6,17 +6,11 @@ const userEmail = document.querySelector('form[name="email"]');
 const phoneNumber = document.querySelector('form[name="phone_number"]');
 const userBusiness = document.querySelector('form[name="business"]');
 const memberLevel = document.querySelector('form[name="membership"]');
+const businDescrpt = document.querySelector('form[name="description"]');
 
 function join() {
-//     console.log('first_name');
-//     console.log('last_name');
-//     console.log('email');
-//     console.log('phone_number');
-//     console.log('business');
-//     console.log('membership');
-    if (firstName != null){
+    if (firstName != null && lastName != null && userEmail != null && phoneNumber != null && 
+        userBusiness != null && memberLevel != null){
         window.location.href = "../thankyou.html";
-    } else {
-        window.alert("This field is required");
     }
 }

@@ -2,7 +2,6 @@
 @media only screen and (min-width: 1300px){
 
     header, footer{
-        display: inline-block;
         width: 2000px;
         height: 350px;
         background-color: #d3e5e5;
@@ -32,11 +31,20 @@
         margin-right: 30px;
     }
 
-    .weather, .join, .event, .no-events{
+    .weather, .join, .event{
         width: 430px;
         height: 320px;
         padding: 20px;
         display: block;
+        background-color: #dac9d1;
+        color: #63503f;
+    }
+
+    .no-events{
+        width: 430px;
+        height: 320px;
+        padding: 20px;
+        display: none;
         background-color: #dac9d1;
         color: #63503f;
     }
@@ -225,5 +233,10 @@
         width: 60%;
         height: 60%;
     }
+
+    .banner{background-color: #47B6C2;  display: none;}
+    .banner__content{padding: 16px; max-width: 1000px ;margin: 0 auto; display: flex; align-items: center;}
+    .banner__text{flex-grow: 1; line-height: 1.4; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger; text-align: center;}
+    .banner__close{background: none; border: none; cursor: pointer;}
 
 }

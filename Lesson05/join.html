@@ -41,41 +41,43 @@
     </header>
     <main>
         <ul>
-            <form>
-                <label for="fname">First name: </label>
-                <input type="text" name="first_name" placeholder="Your first name..." required="required"/>
+            <form id="joinform" action="thankyou.html">
+                <div>
+                    <label for="fname">First name: </label>
+                    <input type="text" name="first_name" placeholder="Your first name..." required="required"/>
+                </div>
+                <div>
+                    <label for="lname">Last name: </label>
+                    <input type="text" name="last_name" placeholder="Your last name..." required="required"/>
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" required/>
+                </div>
+                <div>
+                    Cell Phone Number: <input type="tel" name="phone_number"/>
+                </div>
+                <div>
+                    Business: <input type="text" name="business"/>
+                </div>
+                <div>
+                    <label for="membership">
+                        Membership Level:
+                        <select name="membership" id="memshp">
+                            <option disabled selected value>NP Membership</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <textarea name="description" id="dscrpt" rows="5" cols="50" placeholder="Please describe your business here..."></textarea>
+                </div>
+                <button onclick="join()" id="submitBtn">
+                    Submit
+                </button>
             </form>
-            <form>
-                <label for="lname">Last name: </label>
-                <input type="text" name="last_name" placeholder="Your last name..." required="required"/>
-            </form>
-            <form>
-                <label for="email">Email: </label>
-                <input type="email" name="email" required/>
-            </form>
-            <form>
-                Cell Phone Number: <input type="tel" name="phone_number"/>
-            </form>
-            <form>
-                Business: <input type="text" name="business"/>
-            </form>
-            <form>
-                <label for="membership">
-                    Membership Level:
-                    <select name="membership" id="memshp">
-                        <option value="np">NP Membership</option>
-                        <option value="bronze">Bronze Membership</option>
-                        <option value="silver">Silver Membership</option>
-                        <option value="gold">Gold Membership</option>
-                    </select>
-                </label>
-            </form>
-            <form>
-                <textarea name="description" id="dscrpt" rows="5" cols="50" placeholder="Please describe your business here..."></textarea>
-            </form>
-            <button onclick="join()">
-                Submit
-            </button>
         </ul>
     </main>
     <footer>
@@ -97,7 +99,7 @@
             <div class="footer-bottom">
                 &copy;<span id="year"></span> Andrew Halisky - All rights reserved
                 <div>
-                    <script src="scripts/copyright-dis.js"></script>
+                    <script src="scripts/copyright.js"></script>
                 </div>
             </div>
         </div>
