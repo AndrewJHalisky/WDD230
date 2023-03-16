@@ -27,9 +27,3 @@ let weekDate = now.getDay();
 
 document.querySelector('#date').textContent = fulldate;
 document.querySelector('#year').textContent = currentDate.getFullYear();
-
-// document.querySelector(".banner_close").addEventListener("click",function(){this.closest(".banner").style.display = "none";})
-
-// if (weekDate !=0 && weekDate <=3){
-//     document.querySelector(".banner").style.display = "flex";
-// }
