@@ -238,13 +238,10 @@ main .middle-column{
     background-color: #eedfd3;
     margin: 0 auto;
     font-family: 'Figtree', sans-serif;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 265px;
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
-    grid-gap: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
     justify-items: center;
 }
 
@@ -262,6 +259,32 @@ main .middle-column{
 
 #temp, #speed{
     display: inline-block;
+}
+
+.list .cards{
+    font-family: 'Figtree', sans-serif;
+    margin-top: 30px;
+    padding: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 20px;
+}
+
+.list section{
+    display: list-item;
+}
+
+.list img{
+    display: none;
+}
+
+button{
+    margin-top: 20px;
+    width: 40px;
+    height: 30px;
+}
+
+#submitBtn{
+    width: 60px;
 }
 
 

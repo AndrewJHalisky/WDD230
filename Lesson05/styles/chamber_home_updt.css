@@ -32,7 +32,7 @@
         margin-right: 30px;
     }
 
-    .weather, .join, .event{
+    .weather, .event, .join{
         width: 430px;
         height: 320px;
         padding: 20px;
@@ -61,7 +61,6 @@
         text-align: center;
         display: block;
     }
-
 
     .weather img, .event img{
         width: 170px;
@@ -219,15 +218,12 @@
 
     .grid .cards{
         background-color: #eedfd3;
-        margin: 0 auto;
         font-family: 'Figtree', sans-serif;
-        margin-top: 100px;
-        width: 500px;
-        padding: 20px;
+        margin-top: 30px;
+        padding: 40px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
-        grid-gap: 80px;
-        justify-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        grid-gap: 20px;
     }
 
     .grid img{
@@ -235,9 +231,29 @@
         height: 60%;
     }
 
-    .banner{background-color: #47B6C2;  display: none;}
-    .banner__content{padding: 16px; max-width: 1000px ;margin: 0 auto; display: flex; align-items: center;}
-    .banner__text{flex-grow: 1; line-height: 1.4; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger; text-align: center;}
-    .banner__close{background: none; border: none; cursor: pointer;}
+    .list .cards{
+        font-family: 'Figtree', sans-serif;
+        margin-top: 30px;
+        padding: 40px;
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        grid-gap: 20px;
+    }
 
+    .list section{
+        display: list-item;
+    }
+
+    .list img{
+        display: none;
+    }
+
+    menu .button{
+        margin-top: 20px;
+        width: 50px;
+        height: 30px;
+    }
+    
+    #submitBtn {
+        width: 60px;
+    }
 }

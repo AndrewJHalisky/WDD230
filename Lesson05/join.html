@@ -43,22 +43,22 @@
         <ul>
             <form id="joinform" action="thankyou.html">
                 <div>
-                    <label for="fname">First name: </label>
+                    <label for="first_name">First name: </label>
                     <input type="text" name="first_name" placeholder="Your first name..." required="required"/>
                 </div>
                 <div>
-                    <label for="lname">Last name: </label>
+                    <label for="last_name">Last name: </label>
                     <input type="text" name="last_name" placeholder="Your last name..." required="required"/>
                 </div>
                 <div>
                     <label for="email">Email: </label>
-                    <input type="email" name="email" required/>
+                    <input type="email" name="email" required="required">
                 </div>
                 <div>
-                    Cell Phone Number: <input type="tel" name="phone_number"/>
+                    Cell Phone Number: <input type="tel" name="phone_number" required="required"/>
                 </div>
                 <div>
-                    Business: <input type="text" name="business"/>
+                    Business: <input type="text" name="business" required="required"/>
                 </div>
                 <div>
                     <label for="membership">
@@ -72,7 +72,9 @@
                     </label>
                 </div>
                 <div>
-                    <textarea name="description" id="dscrpt" rows="5" cols="50" placeholder="Please describe your business here..."></textarea>
+                    <label for="description">
+                        <textarea name="description" id="dscrpt" rows="5" cols="50" placeholder="Please describe your business here..." required="required"></textarea>
+                    </label>
                 </div>
                 <button onclick="join()" id="submitBtn">
                     Submit

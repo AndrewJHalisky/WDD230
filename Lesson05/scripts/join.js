@@ -10,7 +10,7 @@ const businDescrpt = document.querySelector('form[name="description"]');
 
 function join() {
     if (firstName != null && lastName != null && userEmail != null && phoneNumber != null && 
-        userBusiness != null && memberLevel != null){
+        userBusiness != null && memberLevel != null && businDescrpt != null){
         window.location.href = "../thankyou.html";
     }
 }
