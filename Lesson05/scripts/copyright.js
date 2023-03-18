@@ -23,7 +23,6 @@ let weekDay = currentDate.getDay();
         document.querySelector(".event").style.display = "none";
         document.querySelector(".no-events").style.display = "block";
     }
-let weekDate = now.getDay();
 
 document.querySelector('#date').textContent = fulldate;
 document.querySelector('#year').textContent = currentDate.getFullYear();

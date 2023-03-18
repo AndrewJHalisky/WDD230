@@ -25,7 +25,6 @@ if (numVisits !=0){
 }
 numVisits++
 localStorage.setItem("visits-ls", numVisits)
-todayDisplay.textContent = Date.now();
 
 document.querySelector('#date').textContent = fulldate;
 document.querySelector('#year').textContent = currentDate.getFullYear();
