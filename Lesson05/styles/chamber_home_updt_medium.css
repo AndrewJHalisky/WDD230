@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
-@media only screen and (min-width: 800px) and (max-width: 1299px){
+@media only screen and (min-width: 400px) and (max-width: 560px){
 
     header{
         display: inline-block;
@@ -114,6 +114,13 @@
         border-width: 20px;
         background-color: #dac9d1;
         color: #785964;
+    }
+
+    .join-button{
+        width: 150px;
+        height: 50px;
+        margin-top: 70px;
+        background-color: #eedfd3
     }
 
     .spotlight1 img, .spotlight2 img, .spotlight3 img{

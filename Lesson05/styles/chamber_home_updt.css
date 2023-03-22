@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
-@media only screen and (min-width: 1300px){
+@media only screen and (min-width: 770px){
 
     header, footer{
         width: 2000px;
@@ -74,7 +74,7 @@
 
     .middle-column img{
         width: 920px;
-        height: 700px;
+        height: 762px;
     }
 
     .mascot-and-sitename-row1{
@@ -115,8 +115,8 @@
     .spotlight1, .spotlight2, .spotlight3{
         width: 430px;
         height: 320px;
-        padding: 20px;
-        display: block;
+        padding: 10px;
+        display: inline-block;
         position: absolute;
         border-color: #d3e5e5;
         border-style: block;
@@ -126,7 +126,7 @@
     }
 
     .spotlight1{
-        top: 20px
+        top: 10px
     }
     
     .spotlight2{
@@ -134,7 +134,7 @@
     }
 
     .spotlight3{
-        top: 820px
+        top: 730px
     }
 
     main ul input{
@@ -181,6 +181,7 @@
 		display: flex;
         margin-top: 90px;
 	}
+    
 	.primaryNav li {
 		display: block; /* change state in small view */
 		flex: 1 1 auto;

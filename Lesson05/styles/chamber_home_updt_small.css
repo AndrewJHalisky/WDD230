@@ -29,6 +29,7 @@ img {
 .event, .weather, .no-events{
     font-family: 'Figtree', sans-serif;
     display: inline-block;
+    margin: 0 auto;
     width: 400px;
     height: 300px;
     padding: 20px;
@@ -111,7 +112,6 @@ main textarea{
     background-color: #dac9d1;
     padding: 20px;
     color: #785964;
-    margin-top: 30px;
 }
 
 .spotlight1{
@@ -125,8 +125,6 @@ main textarea{
     border-width: 20px;
     color: #785964;
     background-color: #dac9d1;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .spotlight2{
@@ -140,16 +138,31 @@ main textarea{
     border-width: 20px;
     color: #785964;
     background-color: #dac9d1;
-    margin-bottom: 30px;
 }
 
-.spotlight1 img, .spotlight2 img{
-    width: 40%;
-    height: 40%;
+.spotlight3{
+    font-family: 'Figtree', sans-serif;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border-color: #d3e5e5;
+    border-style: solid;
+    border-width: 20px;
+    color: #785964;
+    background-color: #dac9d1;
 }
 
-.spotlight1, .spotlight2{
-    position: absolute;
+.join-button{
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    background-color: #eedfd3
+}
+
+.spotlight1 img, .spotlight2 img, .spotlight3 img{
+    width: 50%;
+    height: 30%;
 }
 
 .spotlight3{display:none}
@@ -173,7 +186,6 @@ nav ul li a:hover{
 	display: block;
 }
 
-
 .open #menu::before {
 	content: "X";
 }
@@ -193,6 +205,7 @@ nav ul li a:hover{
 .primaryNav li {
 	display: none;
 }
+
 .primaryNav a {
 	display: block;
 	padding: 0.75rem;
@@ -208,13 +221,16 @@ main .middle-column{
     font-family: 'Figtree', sans-serif;
 }
 
+main .right-column{
+    font-family: 'Figtree', sans-serif;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .middle-column img{
     width: 455px;
     height: 365px;
-}
-
-.footer{
-    margin-top: -10px;
 }
 
 .primaryNav a:hover, .primaryNav a:active {
