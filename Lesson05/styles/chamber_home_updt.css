@@ -2,8 +2,17 @@
 @media only screen and (min-width: 770px){
 
     header, footer{
-        width: 2000px;
-        height: 350px;
+        width: 1500px;
+        height: auto;
+        background-color: #d3e5e5;
+        display: inline-block;
+        padding: 10px;
+        font-family: 'Figtree', sans-serif;
+    }
+
+    .header-dis{
+        width: auto;
+        height: auto;
         background-color: #d3e5e5;
         display: inline-block;
         padding: 10px;
@@ -11,19 +20,7 @@
     }
 
     footer{
-        margin-top: 100px;
-    }
-
-    .logo-top{
-        margin-right: 1300px;
-    }
-
-    .logo-bottom{
-        margin-right: 1300px;
-    }
-    
-    .slogan{
-        margin-top: -190px;
+        margin-top: 50px;
     }
 
     main .left-column{        
@@ -74,7 +71,7 @@
 
     .middle-column img{
         width: 920px;
-        height: 762px;
+        height: 735px;
     }
 
     .mascot-and-sitename-row1{
@@ -145,7 +142,11 @@
         border-radius: 3px;
     }
 
-    .thankyou{
+    .information{
+        margin-right: 15%;
+    }
+
+    .thankyou, .contact_info, .fill_out{
         font-family: 'Figtree', sans-serif;
     }
 
@@ -192,9 +193,10 @@
 	.primaryNav li:first-child {
 		display: none;
 	}
-    
-    .footer{
-        margin-top: -250px;
+
+    .visitcount{
+        margin-top: 30px;
+        margin-left: 200px;
     }
 
     #location{
@@ -210,11 +212,15 @@
         font-size: large;
         font-weight: 600;
         color: black;
-        text-align: center;
+        margin-left: 200px;
     }
 
     #temp, #speed{
         display: inline-block;
+    }
+
+    .logo-top, .logo-bottom{
+        margin-right: 900px;
     }
 
     .grid .cards{

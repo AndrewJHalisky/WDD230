@@ -2,19 +2,3 @@ body{
     text-align: center;
     background-color: #f1fffa;
 }
-
-.event{
-    width: 430px;
-    height: 320px;
-    padding: 20px;
-    background-color: #dac9d1;
-    color: #63503f;
-}
-
-.no-events{
-    width: 430px;
-    height: 320px;
-    padding: 20px;
-    background-color: #dac9d1;
-    color: #63503f;   
-}

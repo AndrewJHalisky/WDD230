@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="styles/chamber_home_updt_medium.css">
     <link rel="stylesheet" href="styles/chamber_home_updt.css">
     <link rel="stylesheet" href="styles/chamber_home_updt_main.css">
-    <title>Document</title>
+    <title>Contact us!</title>
 </head>
 <body>
     <header>
         <div class="logo-top">
-            <img src="images/trihamptoncoc-logo.webp" alt="logo">            
+            <img src="images/trihamptoncoc-logo.webp" alt="logo-top">            
         </div>
         <div class="slogan">
             <h1>
@@ -35,22 +35,52 @@
                 <li><a href="chamber_index_updt.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="thankyou">
-            <h2>Thank you for submitting your application!</h2>
-            <p>Your application is carefully being reviewed. You will recieve notice of acceptance or declinement within the next week.</p>
-            <form>
-                <input type="button" onclick="window.location.href='chamber_index_updt.html';" value="Return"/>
-            </form>
+        <div class="contact_info">
+            <h3>Our Office Address:  380 Wallace Way, Holland, PA 18966</h3>
+            <a id="location" href="https://www.google.com/maps/place/Holland,+PA+18966/@40.2010283,-74.9722322,15z/data=!3m1!4b1!4m5!3m4!1s0x89c6acb3ea7b0981:0xc856bc6944a516dd!8m2!3d40.2010288!4d-74.9722322">Location on Google Maps</a>
+            <h3>Our Phone Number:  +(215) 222-5331</h3>
+            <h3>Our Office Hours:</h3>
+            <p>Monday-Friday: 9:00 am - 8:00 pm</p>
+            <p>Saturday - 9:00 am - 9:00 pm</p>
+            <p>Sunday - CLOSED</p>
+            <p></p>
         </div>
+        <ul>
+            <div class="fill_out">
+                <h3>Send us a message here: </h3>
+            </div>
+            <form id="joinform" action="completed.html">
+                <div>
+                    <label for="first_name">First name: </label>
+                    <input type="text" name="first_name" id="first_name" placeholder="Your first name..." required="required"/>
+                </div>
+                <div>
+                    <label for="last_name">Last name: </label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Your last name..." required="required"/>
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" required="required">
+                </div>
+                <div>
+                    <label for="message">
+                        <textarea name="message" id="message" rows="5" cols="50" placeholder="Enter your message here..." required="required"></textarea>
+                    </label>
+                </div>
+                <button onclick="join()" id="submitBtn">
+                    Send
+                </button>
+            </form>
+        </ul>
     </main>
     <footer>
         <div class="logo-bottom">
-            <img src="images/trihamptoncoc-logo.webp" alt="logo">            
+            <img src="images/trihamptoncoc-logo.webp" alt="logo-bottom">            
         </div>
         <div class="footer">
             <div class="address">
@@ -67,11 +97,11 @@
             <div class="footer-bottom">
                 &copy;<span id="year"></span> Andrew Halisky - All rights reserved
                 <div>
-                    <script src="scripts/copyright-dis.js"></script>
+                    <script src="scripts/copyright.js"></script>
                 </div>
             </div>
         </div>
     </footer>
-    
+<script src="scripts/contactus.js"></script>
 </body>
 </html>
