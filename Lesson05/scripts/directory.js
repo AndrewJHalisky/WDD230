@@ -25,7 +25,6 @@ const displayData = (businesses) => {
     const cards = document.querySelector('div.cards');
 
     businesses.forEach((business) => {
-    
         let card =  document.createElement('section');
         let h2 = document.createElement('h2');
         let image = document.createElement('img');

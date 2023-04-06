@@ -14,7 +14,7 @@ const fulldate = new Intl.DateTimeFormat("en-UK", {
     dateStyle: "full"
 }).format(currentDate);
 
-const visitsDisplay = document.querySelector("#visits")
+const visitsDisplay = document.querySelector("#visits");
 
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
