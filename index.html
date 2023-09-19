@@ -2,42 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Andrew Halisky's Portal for Brigham Young University-Idaho: Web Frontend Development WDD 230">
-    <link rel="stylesheet" href="styles/indexsmall.css">
-    <link rel="stylesheet" href="styles/indexmedium.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Portal</title>
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/mainindex.css">
-    <title>Web Frontend Development WDD 230 Lesson Portal</title>
 </head>
 <body>
+    <nav class="navcard">
+        <a href="index.html">Home</a>
+        <a href="chamber/siteplan.html">Site Plan</a>
+        <a href="chamber/">Chamber</a>
+        <a href="https://www.byui.edu">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+    </nav>
     <header>
-        <div class="image">
-            <img src="meatdctempleopenhouse.png" alt="Me at the DC Temple Open House">
-        </div>
-        <div class="name">
-            <h1>Andrew Halisky</h1>
-        </div>
+        <img src="images/meattimessquare.png" alt="me_in_timessquare_nyc" width="375" height="500">
     </header>
-    <h2>WDD 230: Lesson Portal</h2>
-    <ul>
-        <li>Lesson 02: <a href="Lesson02/design-principles.html">Design Principles</a></li>
-        <li>Lesson 03: <a href="Lesson03/chamber_of_commerce.html">Chamber of Commerce Page</a></li>
-        <li>Lesson 04: <a href="Lesson04/chamber_index.html">Chamber of Commerce Home Page</a></li>    
-        <li>Lesson 05: <a href="BOMActivity/bom.html">Book of Mormon Actvitity</a></li>
-        <li>Lesson 06: <a href="Lesson05/chamber_index_updt.html">Chamber of Commerce Completed Home Page</a></li>
-        <li>Lesson 07: <a href="Lesson07/lazyload.html">Lazy Loading Actvitity</a></li>
-        <li>Lesson 08: <a href="Lesson08/tablebuild.html">Table build Activity</a></li>
-        <li>Lesson 09: <a href="Lesson09/prophets.html">Prophets JSON Activity</a></li>
-        <li>Lesson 10: <a href="Lesson10/weather-api.html">Weather API Activity</a></li>
-        <li>Lesson 11: <a href="">Title</a></li>
-    </ul>
+    <main>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+                <li>Lesson 01: <a href=""></a></li>
+                <li>Lesson 02: <a href=""></a></li>
+                <li>Lesson 03: <a href=""></a></li>
+                <li>Lesson 04: <a href=""></a></li>
+                <li>Lesson 05: <a href=""></a></li>
+                <li>Lesson 06: <a href=""></a></li>
+                <li>Lesson 07: <a href=""></a></li>
+                <li>Lesson 08: <a href=""></a></li>
+                <li>Lesson 09: <a href=""></a></li>
+                <li>Lesson 10: <a href=""></a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h3>Information</h3>
+        </section>
+    </main>
     <footer>
-        <div class="modified">
-            <p>&copy; 2023 Andrew Halisky All Rights Reserved</p>
-            <script src="lastupdated/modifiedscripts.js"></script>
-        </div>
+        <p>&copy <span id="year"></span> Andrew Halisky United States of America</p>
+        <p>Last modified: <span id="lastModified"></span></p>
     </footer>
+    <script src="scripts/getdates.js"></script>
 </body>
+
 </html>
