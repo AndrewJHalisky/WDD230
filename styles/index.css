@@ -6,17 +6,35 @@ body, main{
 
 main{
     align-items: center;
-    margin: auto;
-}
-
-header img{
-    align-items: center;
-    margin: auto;
+    position: absolute;
+    top: 80%;
+    left: 45%;
 }
 
 .navcard{
+    position: absolute;
+    left: 45%;
     background-color: rgb(254, 254, 185);
     padding: 10px;
+}
+
+h1{
+    position: relative;
+    left: 20%;
+}
+
+header{
+    position: absolute;
+    align-items: center;
+    left: 45%;
+    top: 15%;
+}
+
+footer{
+    position: absolute;
+    align-items: center;
+    top: 130%;
+    left: 40%;
 }
 
 .card{
