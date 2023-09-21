@@ -1,43 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 
-body, main{
+body,
+main {
     font-family: 'Archivo', sans-serif;
 }
 
-main{
-    align-items: center;
-    position: absolute;
-    top: 80%;
-    left: 45%;
+h1,
+h2 {
+    position: relative;
+    text-align: center;
 }
 
-.navcard{
-    position: absolute;
-    left: 45%;
+.navcard {
+    position: relative;
+    text-align: center;
     background-color: rgb(254, 254, 185);
     padding: 10px;
 }
 
-h1{
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+footer {
     position: relative;
-    left: 20%;
+    text-align: center;
 }
 
-header{
-    position: absolute;
-    align-items: center;
-    left: 45%;
-    top: 15%;
-}
-
-footer{
-    position: absolute;
-    align-items: center;
-    top: 130%;
-    left: 40%;
-}
-
-.card{
+.card {
     background-color: rgb(185, 185, 255);
     padding: 10px;
 }
