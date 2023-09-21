@@ -14,7 +14,7 @@ header, main, footer{
 main{
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1rem auto;
+    grid-gap: 1rem;
 }
 
 section{
