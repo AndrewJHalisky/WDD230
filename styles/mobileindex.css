@@ -1,0 +1,58 @@
+body,
+main {
+    font-family: 'Archivo', sans-serif;
+}
+
+h1,
+h2 {
+    position: relative;
+}
+
+nav{
+    background-color : rgb(254, 254, 185);
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 1px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a:hover{
+    max-width: 675px;
+}
+
+.active{
+    color: rgb(118, 34, 178)
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+header{
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+}
+
+.card {
+    background-color: rgb(185, 185, 255);
+    padding: 10px;
+}
+

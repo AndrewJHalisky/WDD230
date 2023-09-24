@@ -1,36 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@media (min-width: 700px)
+{
+    body,
+    main {
+        font-family: 'Archivo', sans-serif;
+        box-sizing: border-box;
 
-body,
-main {
-    font-family: 'Archivo', sans-serif;
-}
+    }
 
-h1,
-h2 {
-    position: relative;
-    text-align: center;
-}
+    h2 {
+        position: relative;
+        text-align: center;
+    }
 
-.navcard {
-    position: relative;
-    text-align: center;
-    background-color: rgb(254, 254, 185);
-    padding: 10px;
-}
+    nav{
+        background-color : rgb(254, 254, 185);
+        text-align: center;
+        margin: 0 auto;
+        padding: 1px;
+    }
 
-header img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-}
+    nav ul {
+        display: flex;
+        list-style-type: none;
+    }
 
-footer {
-    position: relative;
-    text-align: center;
-}
+    nav ul li {
+        flex: 1 1 100%;
+    }
 
-.card {
-    background-color: rgb(185, 185, 255);
-    padding: 10px;
+    nav a{
+        font-family: 'Archivo', sans-serif;
+        text-decoration: none;
+        padding: 1rem;
+        color: rgb(0, 0, 0);
+    }
+
+    nav a:hover{
+        border: 1px solid
+    }
+
+    .active{
+        color: rgb(118, 34, 178)
+    }
+
+    /* Use these for mobile:
+
+    nav{
+        background-color : rgb(254, 254, 185);
+        margin: 0 auto;
+        max-width: 650px;
+    }
+
+    nav ul{
+        list-style-type: none;
+    }
+
+    nav a {
+        display: block;
+        color: #843788;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    nav a:hover{
+        max-width: 675px;
+    }
+
+    */
+
+    header{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        margin-left: 20%;
+    }
+
+    footer {
+        position: relative;
+        text-align: center;
+    }
+
+    img{
+        margin-bottom: 10%;
+    }
+
+    .card {
+        background-color: rgb(185, 185, 255);
+        padding: 10px;
+    }
 }
