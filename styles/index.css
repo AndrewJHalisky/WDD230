@@ -17,7 +17,6 @@
         background-color : rgb(254, 254, 185);
         text-align: center;
         margin: 0 auto;
-        padding: 1px;
     }
 
     nav ul {
@@ -37,7 +36,7 @@
     }
 
     nav a:hover{
-        border: 1px solid
+        border: 1px solid;
     }
 
     .active{
@@ -70,22 +69,14 @@
     */
 
     header{
-        display: grid;
+        display: flex;
         align-items: center;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    h1 {
-        margin-left: 20%;
+        margin-right: 25%;
     }
 
     footer {
         position: relative;
         text-align: center;
-    }
-
-    img{
-        margin-bottom: 10%;
     }
 
     .card {
