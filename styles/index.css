@@ -15,8 +15,6 @@
 
     nav{
         background-color : rgb(254, 254, 185);
-        text-align: center;
-        margin: 0 auto;
     }
 
     nav ul {
@@ -24,19 +22,15 @@
         list-style-type: none;
     }
 
-    nav ul li {
-        flex: 1 1 100%;
-    }
-
     nav a{
+        align-items: center;
         font-family: 'Archivo', sans-serif;
         text-decoration: none;
-        padding: 1rem;
         color: rgb(0, 0, 0);
     }
 
     nav a:hover{
-        border: 1px solid;
+        border: 2px solid;
     }
 
     .active{
