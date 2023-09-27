@@ -1,20 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
-@media (min-width: 700px)
-{
+@media (min-width: 700px) {
+
     body,
     main {
         font-family: 'Archivo', sans-serif;
         box-sizing: border-box;
-
     }
 
-    h2 {
-        position: relative;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        display: flex;
+    }
+
+    header img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+
+    header,
+    main {
+        align-items: center;
+        justify-content: center;
+        max-width: 645px;
+        margin: auto;
+    }
+
+    .card {
+        background-color: rgb(185, 185, 255);
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        max-width: 775px;
+        margin: 0 auto;
+    }
+
+    h3{
+        margin-bottom: 10px;
+    }
+
+    .card ul {
+        list-style-type: none;
+    }
+
+    h2,
+    footer {
         text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
-    nav{
-        background-color : rgb(254, 254, 185);
+    nav {
+        background-color: rgb(254, 254, 185);
+        padding: 1rem;
+        max-width: 650px;
     }
 
     nav ul {
@@ -22,18 +67,22 @@
         list-style-type: none;
     }
 
-    nav a{
-        align-items: center;
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
         font-family: 'Archivo', sans-serif;
-        text-decoration: none;
         color: rgb(0, 0, 0);
     }
 
-    nav a:hover{
+    nav a:hover {
         border: 2px solid;
     }
 
-    .active{
+    .active {
         color: rgb(118, 34, 178)
     }
 
@@ -61,20 +110,4 @@
     }
 
     */
-
-    header{
-        display: flex;
-        align-items: center;
-        margin-right: 25%;
-    }
-
-    footer {
-        position: relative;
-        text-align: center;
-    }
-
-    .card {
-        background-color: rgb(185, 185, 255);
-        padding: 10px;
-    }
 }
