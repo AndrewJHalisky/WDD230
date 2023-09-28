@@ -72,8 +72,9 @@
     }
 
     nav a {
-        display: block;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-family: 'Archivo', sans-serif;
         color: rgb(0, 0, 0);
     }

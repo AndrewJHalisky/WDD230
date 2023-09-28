@@ -30,8 +30,9 @@ nav ul li{
 }
 
 nav a {
-    display: block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 1rem;
