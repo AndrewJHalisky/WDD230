@@ -85,29 +85,4 @@
     .active {
         color: rgb(118, 34, 178)
     }
-
-    /* Use these for mobile:
-
-    nav{
-        background-color : rgb(254, 254, 185);
-        margin: 0 auto;
-        max-width: 650px;
-    }
-
-    nav ul{
-        list-style-type: none;
-    }
-
-    nav a {
-        display: block;
-        color: #843788;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    nav a:hover{
-        max-width: 675px;
-    }
-
-    */
 }
