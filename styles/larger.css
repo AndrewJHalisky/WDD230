@@ -35,10 +35,21 @@
     .card {
         background-color: rgb(185, 185, 255);
         padding: 20px;
+        max-width: 775px;
         align-items: center;
         justify-content: center;
-        max-width: 775px;
         margin: 0 auto;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2rem;
+        text-align: center;
     }
 
     h3{
@@ -49,7 +60,6 @@
         list-style-type: none;
     }
 
-    h2,
     footer {
         text-align: center;
         margin-top: 25px;
@@ -62,12 +72,33 @@
         max-width: 650px;
     }
 
+    .map {
+        margin-top: 30px;
+        overflow: hidden;
+        padding-bottom:56.25%;
+        position: relative;
+        text-align: center;
+    }
+
+    .map iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position: absolute;
+    }
+
+    #menu{
+        display: none;
+    }
+
     nav ul {
-        display: flex;
+        flex-direction: row;
         list-style-type: none;
     }
 
     nav ul li {
+        display: block;
         flex: 1 1 100%;
     }
 
@@ -75,6 +106,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-decoration: none;
         font-family: 'Archivo', sans-serif;
         color: rgb(0, 0, 0);
     }
