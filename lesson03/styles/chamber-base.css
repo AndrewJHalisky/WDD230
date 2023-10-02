@@ -21,6 +21,11 @@ header {
     margin-bottom: 30px;
 }
 
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .purpose {
     font-size: larger;
     max-width: 635px;
