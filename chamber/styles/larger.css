@@ -80,13 +80,13 @@
 
     .sponsor1, .sponsor2 {
         height: 120px;
-        width: 260px;
+        width: 250px;
         background-color: #cbcbcb;
     }
 
     .sponsor3{
         height: 120px;
-        width: 230px;
+        width: 250px;
         display: flex;
         justify-content: center;
     }
