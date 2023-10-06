@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+body {
+    text-align: center;
+}
+
+header {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: inline-block;
+    max-width: 250px;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+header img {
+    width: 250px;
+}
+
+.top, .middle, .bottom {
+    display: inline-block;
+    align-items: center;
+}
+
+.top, .bottom, footer {
+    font-family: 'Alamrai', sans-serif;
+}
+
+.middle {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.top, .join {
+    padding: 20px;
+}
+
+.events, .weather, .join, .sponsors {
+    margin-top: 30px;
+    background-color: #FF7E30;
+}
+
+.join {
+    height: 250px;
+    width: 300px;
+}
+
+.events {
+    height: 150px;
+    width: 250px;
+    padding: 20px;
+}
+
+.weather {
+    margin-top: 20px;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+}
+
+.sponsors {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.sponsor1, .sponsor2 {
+    height: 120px;
+    width: 237px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #cbcbcb;
+}
+
+.sponsor3{
+    display: none;
+}
