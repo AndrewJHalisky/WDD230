@@ -6,44 +6,72 @@ body {
     text-align: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    display: inline-block;
-    max-width: 250px;
+    display: inline-grid;
     align-items: center;
+    column-gap: 20px;
     justify-content: center;
-    height: 350px;
+    grid-template-columns: 85px 1fr;
+}
+
+h1,
+h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h2 {
+    width: 100%;
+    grid-column: 2/3;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.chamber {
+    display: grid;
+    font-size: 1.25rem;
 }
 
 header img {
-    width: 250px;
+    width: 100px;
 }
 
-.top, .middle, .bottom {
-    display: inline-block;
-    align-items: center;
+.top,
+.middle,
+.bottom {
+    display: inline-grid;
+    grid-gap: 30px;
 }
 
-.top, .bottom, footer {
+footer p {
     font-family: 'Alamrai', sans-serif;
 }
 
-.middle {
+p {
     font-family: 'Hind Siliguri', sans-serif;
 }
 
-.top, .join {
+.top,
+.join {
     padding: 20px;
 }
 
-.events, .weather, .join, .sponsors {
-    margin-top: 30px;
+.events,
+.weather,
+.join,
+.sponsors {
     background-color: #FF7E30;
 }
 
 .join {
-    height: 250px;
-    width: 300px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 350px;
 }
 
 .events {
@@ -53,27 +81,25 @@ header img {
 }
 
 .weather {
-    margin-top: 20px;
     width: 250px;
     height: 300px;
     padding: 20px;
 }
 
 .sponsors {
-    padding: 10px;
-    margin-top: 20px;
+    display: inline-grid;
+    grid-gap: 20px;
+    padding: 20px;
 }
 
-.sponsor1, .sponsor2 {
+.sponsor1,
+.sponsor2 {
     height: 120px;
     width: 237px;
     padding: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
     background-color: #cbcbcb;
 }
 
-.sponsor3{
+.sponsor3 {
     display: none;
 }

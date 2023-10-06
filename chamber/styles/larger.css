@@ -8,20 +8,27 @@
         text-align: center;
     }
 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     header{
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        display: flex;
+        display: inline-grid;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         margin: auto;
-        height: 300px;
-        max-width: 900px;
+    }
+
+    h1, h2{
+        font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .middle, .bottom{
-        display: flex;
+        display: grid;
         align-items: center;
         justify-content: center;
     }
@@ -30,11 +37,11 @@
         width: 300px;
     }
 
-    .top, .bottom, footer{
+    footer p {
         font-family: 'Alamrai', sans-serif;
     }
 
-    .middle{
+    p {
         font-family: 'Hind Siliguri', sans-serif;
     }
 
@@ -57,12 +64,10 @@
     }
 
     .events{
-        margin-right: 10px;
-        width: 170px;
+        width: 200px;
     }
 
     .weather{
-        margin-left: 10px;
         width: 600px;
     }
 
@@ -75,7 +80,7 @@
 
     .sponsor1, .sponsor2 {
         height: 120px;
-        width: 215px;
+        width: 230px;
         margin-right: 10px;
         margin-left: 10px;
         background-color: #cbcbcb;
@@ -83,7 +88,7 @@
 
     .sponsor3{
         height: 120px;
-        width: 215px;
+        width: 230px;
         display: flex;
         justify-content: center;
     }

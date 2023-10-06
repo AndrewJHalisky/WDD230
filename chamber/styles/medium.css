@@ -8,16 +8,31 @@
         text-align: center;
     }
 
-    header{
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        display: inline-grid;
+        column-gap: 20px;
         align-items: center;
         justify-content: center;
-        margin-left: 10%;
-        height: 350px;
-        max-width: 300px
+        grid-template-columns: 45% 1fr;
+    }
+
+    h1, h2{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    h2{
+        grid-column: 1/3;
+    }
+
+    .chamber {
+        display: grid;
+        font-size: 1.25rem;
     }
 
     header img{
@@ -25,15 +40,15 @@
     }
 
     .middle, .bottom{
-        display: inline-flex;
+        display: inline-grid;
         align-items: center;
     }
 
-    .top, .bottom, footer{
+    footer p{
         font-family: 'Alamrai', sans-serif;
     }
 
-    .middle{
+    p {
         font-family: 'Hind Siliguri', sans-serif;
     }
 
@@ -46,23 +61,24 @@
     }
 
     .events, .weather{
-        display: inline-block;
+        display: inline-grid;
         height: 150px;
     }
 
     .join{
+        margin-bottom: 20px;
         height: 250px;
         width: 515px;
     }
 
     .events{
-        margin-right: 10px;
-        width: 150px;
+        grid-column: 1/3;
+        width: 175px;
     }
 
     .weather{
-        margin-left: 10px;
-        width: 300px;
+        grid-column: 3/4;
+        width: 305px;
     }
 
     .sponsors {
@@ -74,15 +90,12 @@
     .sponsor1, .sponsor2, .sponsor3 {
         height: 100px;
         width: 455px;
-            margin-top: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
         background-color: #cbcbcb;
         padding: 20px;
     }
 
     .sponsor3{
-        display: flex;
+        display: inline-grid;
         justify-content: center;
     }
 
