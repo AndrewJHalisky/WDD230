@@ -22,19 +22,20 @@ header {
 
 h1,
 h2 {
+    font-size: 1.25rem;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 h2 {
     width: 100%;
     grid-column: 2/3;
-    font-size: .9rem;
+    font-size: .8rem;
     text-align: center;
 }
 
 .chamber {
     display: grid;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 header img {
@@ -84,6 +85,61 @@ p {
     width: 250px;
     height: 300px;
     padding: 20px;
+}
+
+#menu {
+    border: 1px solid;
+    padding: 3px 7px 6px;
+    position: absolute;
+    top: 1.45rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+nav {
+    margin: auto;
+    max-width: 350px;
+}
+
+nav ul {
+    flex-direction: column;
+    list-style: none;
+    background-color: #FF7E30;
+    color: #1f1f1f;
+}
+
+nav ul li {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-decoration: none;
+    color: black
+}
+
+nav li a:hover {
+    color: black;
+    font-weight: 700;
+}
+
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
 }
 
 .sponsors {

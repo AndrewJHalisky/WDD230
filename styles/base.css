@@ -1,137 +1,139 @@
-@media (min-width: 700px) {
+body,
+main {
+    font-family: 'Archivo', sans-serif;
+}
 
-    body,
-    main {
-        font-family: 'Archivo', sans-serif;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+nav {
+    background-color: rgb(254, 254, 185);
+    margin: 0 auto;
+    max-width: 350px;
+}
 
-    nav{
-        background-color : rgb(254, 254, 185);
-        margin: 0 auto;
-        max-width: 350px;
-    }
+h2,
+footer {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
-    h2, footer{
-        text-align: center;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
+.active {
+    color: rgb(118, 34, 178)
+}
 
-    .active{
-        color: rgb(118, 34, 178)
-    }
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
 
-    header img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-    }
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 3px 7px 6px;
+    background-color: rgb(254, 254, 185);
+    position: absolute;
+    top: 1.45rem;
+    right: 1rem;
+}
 
-    #menu{
-        font-size: 1.5rem;
-        border: 1px solid rgba(0,0,0,.3);
-        padding: 3px 7px 6px;
-        background-color: rgb(254, 254, 185);
-        position: absolute;
-        top: 1.45rem;
-        right: 1rem;
-    }
+#menu::before {
+    content: "☰";
+}
 
-    #menu::before {
-        content: "☰";
-    }
+#menu.open::before {
+    content: "❌";
+}
 
-    #menu.open::before {
-        content: "❌";
-    }
+.map {
+    overflow: hidden;
+    margin-top: 50px;
+    padding-bottom: 56.25%;
+    position: relative;
+    text-align: center;
+}
 
-    .map {
-        overflow: hidden;
-        margin-top: 50px;
-        padding-bottom:56.25%;
-        position: relative;
-        text-align: center;
-    }
+.map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
 
-    .map iframe{
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
-        position: absolute;
-    }
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: rgb(254, 254, 185);
+    color: #1f1f1f;
+}
 
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        background-color: rgb(254, 254, 185);
-        color: #1f1f1f;
-    }
+nav ul li {
+    display: none;
+}
 
-    nav ul li{
-        display: none;
-    }
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: black
+}
 
-    nav ul li a{
-        display: block;
-        padding: 1rem;
-        text-align: center;
-        text-decoration: none;
-        color:black
-    }
+nav li a:hover {
+    background-color: rgb(254, 254, 185);
+    color: black;
+    font-weight: 700;
+}
 
-    nav li a:hover {
-        background-color: rgb(254, 254, 185);
-        color: black;
-        font-weight: 700;
-    }
+nav li a:hover {
+    color: black;
+    font-weight: 700;
+}
 
-    .open li{
-        display: block;
-        width: 100%;
-    }
+.open li {
+    display: block;
+    width: 100%;
+}
 
-    .open li a{
-        display: block;
-    }
+.open li a {
+    display: block;
+}
 
-    header,
-    main {
-        align-items: center;
-        justify-content: center;
-        max-width: 767px;
-        margin: auto;
-    }
+header,
+main {
+    align-items: center;
+    justify-content: center;
+    max-width: 767px;
+    margin: auto;
+}
 
-    header{
-        text-align: center;
-    }
+header {
+    text-align: center;
+}
 
-    footer {
-        text-align: center;
-    }
+footer {
+    text-align: center;
+}
 
-    .card {
-        background-color: rgb(185, 185, 255);
-        padding: 20px;
-        max-width: 350px;
-        margin: 0 auto;
-    }
+.card {
+    background-color: rgb(185, 185, 255);
+    padding: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+}
 
-    h3{
-        margin-bottom: 10px;
-    }
+h3 {
+    margin-bottom: 10px;
+}
 
-    .card ul{
-        list-style-type: none;
-    }
-
+.card ul {
+    list-style-type: none;
 }

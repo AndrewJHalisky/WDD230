@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1000px) {
 
     body{
         text-align: center;
@@ -14,7 +14,7 @@
         box-sizing: border-box;
     }
 
-    header{
+    header {
         display: inline-grid;
         flex-direction: column;
         flex-wrap: wrap;
@@ -49,7 +49,7 @@
         padding: 20px;
     }
 
-    .events, .weather, .join, .sponsors{
+    .events, .weather, .join, .sponsors, nav{
         background-color: #FF7E30;
     }
 
@@ -69,6 +69,38 @@
 
     .weather{
         width: 600px;
+    }
+
+    nav {
+        padding: 2rem;
+        max-width: 550px;
+        margin: auto;
+    }
+
+    nav ul {
+        font-size: 1.25em;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav a {
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-family: 'Hind Siliguri', sans-serif;
+        color: rgb(0, 0, 0);
+    }
+
+    #menu{
+        display: none;
+    }
+
+    nav a:hover {
+        border: 3px solid;
     }
 
     .sponsors {

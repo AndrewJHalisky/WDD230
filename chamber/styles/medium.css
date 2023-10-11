@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 600px){
 
     body{
         text-align: center;
@@ -23,6 +23,7 @@
     }
 
     h1, h2{
+        font-size: 2rem;
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
@@ -32,7 +33,7 @@
 
     .chamber {
         display: grid;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 
     header img{
@@ -79,6 +80,62 @@
     .weather{
         grid-column: 3/4;
         width: 305px;
+    }
+
+    #menu {
+        border: 1px solid;
+        padding: 3px 7px 6px;
+        position: absolute;
+        top: 1.45rem;
+        right: 1rem;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+    
+    #menu.open::before {
+        content: "❌";
+    }
+
+    nav{
+        margin: auto;
+        max-width: 400px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        list-style: none;
+        font-size: 1.25em;
+        background-color: #FF7E30;
+        color: #1f1f1f;
+    }
+
+    nav ul li{
+        display: none;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 1rem;
+        text-align: center;
+        font-family: 'Hind Siliguri', sans-serif;
+        text-decoration: none;
+        color: black
+    }
+
+    nav li a:hover {
+        color: black;
+        font-weight: 700;
+    }
+
+    .open li {
+        display: block;
+        width: 100%;
+    }
+
+    .open li a {
+        display: block;
     }
 
     .sponsors {

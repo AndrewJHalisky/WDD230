@@ -9,16 +9,17 @@ button.addEventListener('click', function () {
         li.textContent = input.value;
         deleteButton.textContent = '❌';
         li.append(deleteButton);
+        li.append(input.textContent)
         list.append(li);
-        input.focus();
     }
-})
+});
 
 deleteButton.addEventListener('click', function () {
     list.removeChild(li);
-    input.focus();
+    input.focus(deleteButton);
 });
 
+input.focus();
 input.value = '';
 
 // button.addEventListener('click', () => { ... });
