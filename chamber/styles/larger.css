@@ -99,6 +99,14 @@
         display: none;
     }
 
+    #mode{
+        position: absolute;
+        top: 1rem;
+        right: 4rem;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+
     nav a:hover {
         border: 3px solid;
     }

@@ -103,6 +103,14 @@ p {
     content: "❌";
 }
 
+#mode{
+    position: absolute;
+    top: 4.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
 nav {
     margin: auto;
     max-width: 350px;

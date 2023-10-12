@@ -98,6 +98,14 @@
         content: "❌";
     }
 
+    #mode{
+        position: absolute;
+        top: 1rem;
+        right: 4rem;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
     nav{
         margin: auto;
         max-width: 400px;
