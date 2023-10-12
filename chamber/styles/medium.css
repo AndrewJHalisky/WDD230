@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
 
 @media screen and (min-width: 600px){
 
@@ -46,11 +44,11 @@
     }
 
     footer p{
-        font-family: 'Alamrai', sans-serif;
+        font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     p {
-        font-family: 'Hind Siliguri', sans-serif;
+        font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .top, .join{
@@ -127,7 +125,7 @@
         display: block;
         padding: 1rem;
         text-align: center;
-        font-family: 'Hind Siliguri', sans-serif;
+        font-family: 'Plus Jakarta Sans', sans-serif;
         text-decoration: none;
         color: black
     }
