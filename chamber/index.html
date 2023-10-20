@@ -42,12 +42,18 @@
                 <p>Events</p>
             </div>
             <div class="weather">
-                <p>Weather</p>
+                <p>Today's Weather:</p>
+                    <li>Weather: <span id="temp"></span>&deg;</li>
+                    <li>Windchill: <span id="windChill"></span>&deg;</li>
             </div>
         </div>
         <div class="middle">
             <div class="join">
-                <p>Hero Image Screen with Join Button</p>
+                <picture>
+                    <source srcset="images/wdd230-org-base.webp" media="(max-width: 600px)">
+                    <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1000px)">
+                    <img src="images/wdd230-org.webp" alt="work" width="830">
+                </picture>
             </div>
         </div>
         <div class="bottom">
@@ -69,6 +75,7 @@
         <p>Last modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>

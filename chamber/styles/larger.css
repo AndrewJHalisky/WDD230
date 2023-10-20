@@ -25,7 +25,7 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    .middle, .bottom{
+    .top, .bottom{
         display: grid;
         align-items: center;
         justify-content: center;
@@ -43,22 +43,27 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    .top, .join{
+    .top {
         padding: 20px;
     }
 
-    .events, .weather, .join, .sponsors, nav{
+    .events, .weather, .sponsors, nav{
         background-color: #FF7E30;
     }
 
     .events, .weather{
+        list-style-type: none;
         height: 150px;
     }
 
     .join{
-        margin-bottom: 20px;
-        height: 250px;
-        width: 830px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .join img{
+        width: 800px;
     }
 
     .events{

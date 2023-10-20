@@ -38,7 +38,7 @@
         width: 300px;
     }
 
-    .middle, .bottom{
+    .bottom{
         display: inline-grid;
         align-items: center;
     }
@@ -51,23 +51,28 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    .top, .join{
+    .top{
         padding: 20px;
     }
 
-    .events, .weather, .join, .sponsors{
+    .events, .weather, .sponsors{
         background-color: #FF7E30;
     }
 
     .events, .weather{
-        display: inline-grid;
+        list-style-type: none;
+        display: grid;
         height: 150px;
     }
 
     .join{
-        margin-bottom: 20px;
-        height: 250px;
-        width: 515px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .join img{
+        width: 450px;
     }
 
     .events{

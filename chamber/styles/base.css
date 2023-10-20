@@ -51,6 +51,11 @@ footer p {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+.weather{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    list-style-type: none;
+}
+
 p {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
@@ -62,14 +67,17 @@ p {
 
 .events,
 .weather,
-.join,
 .sponsors {
     background-color: #FF7E30;
 }
 
-.join {
-    margin-bottom: 20px;
-    height: 300px;
+.join{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.join img{
     width: 350px;
 }
 
