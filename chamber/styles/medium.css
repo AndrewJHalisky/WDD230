@@ -47,10 +47,6 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    p {
-        font-family: 'Plus Jakarta Sans', sans-serif;
-    }
-
     .top{
         padding: 20px;
     }
@@ -148,16 +144,19 @@
         display: block;
     }
 
-    .sponsors {
+    .sponsors, footer {
         align-items: center;
         justify-content: center;
-        padding: 20px;
     }
 
     .sponsor1, .sponsor2, .sponsor3 {
         height: 100px;
         width: 455px;
         background-color: #cbcbcb;
+        padding: 20px;
+    }
+
+    .sponsors, footer{
         padding: 20px;
     }
 

@@ -29,6 +29,7 @@
         display: grid;
         align-items: center;
         justify-content: center;
+        padding: 20px;
     }
 
     header img{
@@ -41,10 +42,6 @@
 
     p {
         font-family: 'Plus Jakarta Sans', sans-serif;
-    }
-
-    .top {
-        padding: 20px;
     }
 
     .events, .weather, .sponsors, nav{
