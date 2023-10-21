@@ -56,6 +56,10 @@
         height: 150px;
     }
 
+    .weather ul{
+        list-style-type: none;
+    }
+
     .join{
         display: grid;
         align-items: center;

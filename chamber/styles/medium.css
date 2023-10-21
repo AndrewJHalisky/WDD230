@@ -60,7 +60,6 @@
     }
 
     .events, .weather{
-        list-style-type: none;
         display: grid;
         height: 150px;
     }
