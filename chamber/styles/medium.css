@@ -51,8 +51,26 @@
         padding: 20px;
     }
 
-    .events, .weather, .sponsors{
+    .events, .weather, .sponsors, .placeinfo, .datetime, .timesvisit{
         background-color: #FF7E30;
+    }
+
+    .placeinfo {
+        width: 300px;
+        height: 200px;
+        padding: 20px;
+    }
+
+    .datetime, .timesvisit {
+        width: 300px;
+        height: 150px;
+        padding: 20px;
+    }
+
+    .placeinfo,
+    .datetime,
+    .timesvisit {
+        margin: auto;
     }
 
     .events, .weather{
@@ -142,6 +160,45 @@
 
     .open li a {
         display: block;
+    }
+
+    .center {
+        display: inline-grid;
+        margin-top: 30px;
+    }
+
+    .center p {
+        padding: 10px;
+    }
+
+    .left {
+        display: inline-grid;
+    }
+
+    .left,
+    .center {
+        grid-gap: 20px;
+    }
+
+    .demographics {
+        display: inline-block;
+        background-color: #FF7E30;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .dis-header {
+        margin: 30px;
+    }
+
+    .upsouthmpt,
+    .lowsouthmpt,
+    .northmpt {
+        height: 120px;
+        width: 300px;
+        background-color: #cbcbcb;
+        padding: 20px;
     }
 
     .sponsors, footer {

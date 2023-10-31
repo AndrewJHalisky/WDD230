@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 1000px) {
 
-    body{
+    body {
         text-align: center;
     }
 
@@ -21,18 +21,20 @@
         margin: auto;
     }
 
-    h1, h2{
+    h1,
+    h2 {
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    .top, .bottom{
+    .top,
+    .bottom {
         display: grid;
         align-items: center;
         justify-content: center;
         padding: 20px;
     }
 
-    header img{
+    header img {
         width: 300px;
     }
 
@@ -40,34 +42,59 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    .events, .weather, .sponsors, nav{
+    .events,
+    .weather,
+    .sponsors,
+    .placeinfo,
+    .datetime,
+    .timesvisit,
+    nav {
         background-color: #FF7E30;
     }
 
-    .events, .weather{
+    .placeinfo {
+        width: 300px;
+        height: 200px;
+        padding: 20px;
+    }
+
+    .datetime, .timesvisit {
+        width: 300px;
+        height: 150px;
+        padding: 20px;
+    }
+
+    .placeinfo,
+    .datetime,
+    .timesvisit {
+        margin: auto;
+    }
+
+    .events,
+    .weather {
         list-style-type: none;
         height: 150px;
     }
 
-    .weather ul{
+    .weather ul {
         list-style-type: none;
     }
 
-    .join{
+    .join {
         display: grid;
         align-items: center;
         justify-content: center;
     }
 
-    .join img{
+    .join img {
         width: 800px;
     }
 
-    .events{
+    .events {
         width: 200px;
     }
 
-    .weather{
+    .weather {
         width: 600px;
     }
 
@@ -95,20 +122,62 @@
         color: rgb(0, 0, 0);
     }
 
-    #menu{
+    #menu {
         display: none;
     }
 
-    #mode{
+    #mode {
         position: absolute;
         top: 1rem;
         right: 4rem;
         font-size: 3rem;
         cursor: pointer;
     }
-
+    
     nav a:hover {
         border: 3px solid;
+    }
+
+    .center {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .center p {
+        padding: 10px;
+    }
+
+    .left,
+    .center {
+        grid-gap: 20px;
+    }
+
+
+    .demographics {
+        display: inline-block;
+        background-color: #FF7E30;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .dis-header {
+        margin: 30px;
+    }
+    
+
+    picture img{
+        margin-left: 50px;
+    }
+
+    .upsouthmpt,
+    .lowsouthmpt,
+    .northmpt {
+        height: 120px;
+        width: 300px;
+        background-color: #cbcbcb;
+        padding: 20px;
     }
 
     .sponsors {
@@ -118,16 +187,18 @@
         padding: 20px;
     }
 
-    .sponsor1, .sponsor2 {
+    .sponsor1,
+    .sponsor2 {
         height: 120px;
         width: 250px;
         background-color: #cbcbcb;
     }
 
-    .sponsor3{
+    .sponsor3 {
         height: 120px;
         width: 250px;
         display: flex;
         justify-content: center;
     }
+
 }

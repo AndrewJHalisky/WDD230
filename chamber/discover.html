@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Halisky">
+    <meta name="description" content="Where business inclusion matters!">
+    <meta property="og:title" content="Tri-Hampton Chamber - Discover">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://andrewjhalisky.github.io/wdd230/chamber/images/trihamptoncoc-logo.webp">
+    <meta property="og:url" content="https://andrewjhalisky.github.io/wdd230/chamber/index.html">
+    <title>Tri-Hampton Chamber of Commerce - Discover</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/faviconcc.ico">
+</head>
+
+<body>
+    <div id="mode">
+        🌛
+    </div>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="chamber/">Directory</a></li>
+            <li><a href="chamber/">Join</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="images/trihamptoncoc-logo.webp" alt="trihcoclogo" width="350">
+        <h1>Tri-Hampton <span class="chamber">Chamber of Commerce</span></h1>
+        <h2 class="dis-header">Discover Us!</h2>
+    </header>
+    <main>
+        <div class="left">
+            <div class="timesvisit">
+                <p><span id="days"></span></p>
+            </div>
+            <div class="placeinfo">
+                <p>Information</p>
+                <p>Here you will find some points of interest that are all located in the Tri-Hampton area. Many of
+                    which are family-friendly.</p>
+            </div>
+            <div class="datetime">
+                <p>Today's Date: </p>
+                <p><span id="date"></span></p>
+                <p>Current Time: <span id="time"></span></p>
+            </div>
+            <div class="demographics">
+                <p>Demographics</p>
+                <div class="upsouthmpt">
+                    <p>Upper Southampton Twp</p>
+                    <p>Population: 15,005</p>
+                    <p>Elevation: 249 ft</p>
+                    <p>Area Size: 6.63 Miles</p>
+                </div>
+                <div class="lowsouthmpt">
+                    <p>Lower Southampton Twp</p>
+                    <p>Population: 20,599</p>
+                    <p>Elevation: 200 ft</p>
+                    <p>Area Size: 6.72 Miles</p>
+                </div>
+                <div class="northmpt">
+                    <p>Northampton Twp</p>
+                    <p>Population: 39,915</p>
+                    <p>Elevation: 223 ft</p>
+                    <p>Area Size: 26.12 Miles</p>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="leftcenter">
+                <picture>
+                    <img src="images/tamanend-park.webp" alt="tamanendpark" loading="lazy" width="500" height="350">
+                </picture>
+                <p>Tamanend Park</p>
+                <picture>
+                    <img src="images/northamptonpark.webp" alt="northamptonpark" loading="lazy" width="500" height="350">
+                </picture>
+                <p>Northampton Community Park</p>
+                <picture>
+                    <img src="images/newtownrail-trail.webp" alt="railtrail" loading="lazy" width="500" height="350">
+                </picture>
+                <p>Newtown Rail Biking Trail</p>
+            </div>
+            <div class="rightcenter">
+                <picture>
+                    <img src="images/ironoven.webp" alt="ironoven" loading="lazy" width="500" height="350">
+                </picture>
+                <p>The Iron Oven Restaurant</p>
+                <picture>
+                    <img src="images/bowlero.webp" alt="bowlero" loading="lazy" width="500" height="350">
+                </picture>
+                <p>Bowlero Bowling & Entertainment</p>
+                <picture>
+                    <img src="images/valleyfear-clowns.webp" alt="valleyoffear" loading="lazy" width="500" height="350">
+                </picture>
+                <p>The Valley of Fear</p>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Andrew Halisky United States of America | WDD 230 Project</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>
