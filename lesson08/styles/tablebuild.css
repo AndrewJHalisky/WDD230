@@ -1,0 +1,47 @@
+:root {
+    --back: rgb(100, 90, 236);
+    --back2: rgb(175, 171, 225);
+    --zebra: hsl(0, 0%, 93%);
+    --forelight: rgb(255, 255, 255);
+    --borderlight: rgb(207, 207, 207);
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifl
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font: .85rem;
+    color: var(--back);
+}
+
+tr:first-child th,
+.highlight {
+    background-color: var(--back);
+    color: var(--forelight);
+}
+
+th,
+td {
+    padding: 7px 15px;
+    border: 1px solid var(--borderlight);
+}
+
+th {
+    background-color: var(--back2);
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}

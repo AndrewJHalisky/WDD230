@@ -32,8 +32,8 @@ let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
 if (numVisits == 1) {
     visitsDisplay.textContent = `Welcome! Let us know if you have any questions!.`;
 }
-else if (numVisits > 1 && numVisits < firstDate){
-    visitsDisplay.textContent = `Back so soon! Awesome!`
+else if (numVisits > 1 && numVisits == firstDate){
+    visitsDisplay.textContent = `Back so soon! Awesome!`;
 }
 else {
     let daysPast = (today - firstDate) / msToDays;

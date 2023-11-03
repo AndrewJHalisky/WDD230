@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <form method="get" action="record.html">
+        <fieldset>
+            <label class="name">Username* <input type="text" id="name" name="username" required></label>
+            <label class="passw">Password* <input type="password" id="passw" name="password" pattern="{6,}" required></label>
+            <label class="passwrpt">Password Confirm* <input type="password" id="passwrpt" name="passwordrpt" pattern="{6,}" required></label>
+            <label class="email">Email Address* <input type="text" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+            <label class="rating">Page Rating <input type="range" id="rating" min="1" max="10" value="0" step="1" list="rangevalues" name="pagerating"></label>
+            <datalist id="rangevalues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+        </fieldset>
+        <input type="submit" value="Rate Page" class="submitBtn">
+    </form>
+</body>
+</html>

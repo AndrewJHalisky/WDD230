@@ -1,0 +1,31 @@
+/* --------Main Portion-------- */
+
+body {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ---------Form----------- */
+
+form label {
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+    width: 100%;
+    max-width: 15rem;
+}
+
+form fieldset {
+    border: solid 3px #ff1010;
+    border-radius: 1rem;
+}
+
+.submitBtn {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 8rem;
+    background-color: #ffb7b7;
+    border-radius: 1rem;
+    padding: 5px;
+}
