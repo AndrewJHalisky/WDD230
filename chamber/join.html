@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Halisky">
+    <meta name="description" content="Where business inclusion matters!">
+    <meta property="og:title" content="Tri-Hampton Chamber - Discover">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://andrewjhalisky.github.io/wdd230/chamber/images/trihamptoncoc-logo.webp">
+    <meta property="og:url" content="https://andrewjhalisky.github.io/wdd230/chamber/index.html">
+    <title>Tri-Hampton Chamber of Commerce - Discover</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/faviconcc.ico">
+</head>
+
+<body>
+    <div id="mode">
+        🌛
+    </div>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="chamber/">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="images/trihamptoncoc-logo.webp" alt="trihcoclogo" width="350">
+        <h1>Tri-Hampton <span class="chamber">Chamber of Commerce</span></h1>
+        <h2 class="dis-header">Join our Chamber of Commerce today!</h2>
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <label class="fname">First Name* <input type="text" id="fname" name="firstname" required></label>
+                <label class="lname">Last Name* <input type="text" id="lname" name="lastname" required></label>
+                <label class="titlepos">Title or Position* <input type="text" id="title" name="titlepos" required></label>
+                <label class="email">Email Address* <input type="email" id="email" name="email"
+                    pattern="[a-zA-Z0-9._%+-]+@gmail\.com$" title="Please enter a valid email address" required></label>
+                <label class="phone">Phone Number* <input type="tel" id="phone" name="phone" required></input></label>
+                <label class="memshp">Membership Level
+                    <select id="memshp" name="memblevel">
+                        <option value="">Select Membership Level</option>
+                        <option value="np">NP Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+                <label class="descrpt">Description 
+                    <textarea rows="8" cols="40" id="descrpt" name="description"></textarea>
+                </label>
+                <label type="time" name="timestamp" step="1"></label>
+            </fieldset>
+            <input type="submit" value="Submit" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Andrew Halisky United States of America | WDD 230 Project</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>

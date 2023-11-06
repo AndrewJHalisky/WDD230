@@ -22,7 +22,8 @@
     }
 
     h1,
-    h2 {
+    h2,
+    h3 {
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
@@ -38,8 +39,35 @@
         width: 300px;
     }
 
-    p {
+    p, form label, .submitBtn, .backBtn {
         font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    form label {
+        display: block;
+        padding-top: 1.5rem;
+        width: 100%;
+        padding: 10px;
+        max-width: 10rem;
+        margin: auto;
+    }
+
+    form fieldset{
+        border: none;
+    }
+
+    .submitBtn, .backBtn {
+        display: block;
+        width: 8rem;
+        margin: auto;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        padding: 6px;
+        background-color: #cbcbcb;
+    }
+
+    .submitBtn:active {
+        background-color: #979797;
     }
 
     .events,
@@ -58,7 +86,8 @@
         padding: 20px;
     }
 
-    .datetime, .timesvisit {
+    .datetime,
+    .timesvisit {
         width: 300px;
         height: 150px;
         padding: 20px;
@@ -117,9 +146,12 @@
         padding: 1rem;
         align-items: center;
         justify-content: center;
-        text-decoration: none;
         font-family: 'Plus Jakarta Sans', sans-serif;
         color: rgb(0, 0, 0);
+    }
+
+    .dis-active {
+        color: blue;
     }
 
     #menu {
@@ -133,9 +165,13 @@
         font-size: 3rem;
         cursor: pointer;
     }
-    
+
     nav a:hover {
         border: 3px solid;
+    }
+
+    nav a {
+        color: blue;
     }
 
     .center {
@@ -146,6 +182,11 @@
 
     .center p {
         padding: 10px;
+    }
+
+    .center img:hover {
+        width: 600px;
+        height: 450px;
     }
 
     .left,
@@ -164,11 +205,6 @@
 
     .dis-header {
         margin: 30px;
-    }
-    
-
-    picture img{
-        margin-left: 50px;
     }
 
     .upsouthmpt,

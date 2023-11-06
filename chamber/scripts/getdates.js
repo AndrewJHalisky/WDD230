@@ -14,39 +14,30 @@ let newformat = hours >= 12 ? 'PM' : 'AM';
 hours = hours % 12;
 let currentTime = `${hours}:${minutes} ${newformat}`
 
-document.getElementById("date").innerHTML = currentDate;
-document.getElementById("time").innerHTML = currentTime;
-
 // milliseconds to days
 const visitsDisplay = document.querySelector('#days');
 const msToDays = 84600000;
 
 // display elements
-const theDateToday = new Date();
-const today = Date.now();
-const firstDate = date.setDate(date.getDate() - 1);
-
+let today = Date.now();
+let lastVisit = localStorage.getItem("lastVisit");
 let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
 
 // processing
-if (numVisits == 1) {
-    visitsDisplay.textContent = `Welcome! Let us know if you have any questions!.`;
-}
-else if (numVisits > 1 && numVisits == firstDate){
-    visitsDisplay.textContent = `Back so soon! Awesome!`;
+if (lastVisit) {
+    let timeBetween = Math.floor((today - lastVisit) / (1000 * 60 * 60 * 24));
+    visitsDisplay.innerHTML = `You last visited this page ${timeBetween} day(s) ago.`
+} 
+else if (today) {
+    visitsDisplay.innerHTML = `Back so soon! Awesome!`
 }
 else {
-    let daysPast = (today - firstDate) / msToDays;
-    if (daysPast == 1){
-        visitsDisplay.textContent = `You last visited this page ${daysPast.toFixed(0)} day ago.`
-    }
-    else {
-        visitsDisplay.textContent = `You last visited this page ${daysPast.toFixed(0)} days ago.`
-    }
+    visitsDisplay.innerHTML = `Welcome! Let us know if you have any questions.`
 }
+localStorage.setItem('lastVisit', today);
 
 const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.navigation')
+const navigation = document.querySelector('.navigation');
 hamButton.addEventListener('click', () => {
     navigation.classList.toggle('open');
     hamButton.classList.toggle('open');
@@ -58,7 +49,7 @@ const main = document.querySelector('main');
 const header = document.querySelector('header');
 const footer = document.querySelector('footer');
 
-modeButton.addEventListener("click", function () {
+modeButton.addEventListener("click", function() {
     if (modeButton.textContent.includes("🌛")) {
         body.style.background = "#000";
         footer.style.background = "#000";

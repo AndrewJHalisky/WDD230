@@ -103,6 +103,33 @@ p {
     padding: 10px;
 }
 
+p, form label, .submitBtn, .backBtn {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+    width: 80%;
+    padding: 10px;
+    max-width: 10rem;
+    margin: auto;
+}
+
+form fieldset{
+    border: none;
+}
+
+.submitBtn, .backBtn {
+    display: block;
+    width: 8rem;
+    margin: auto;
+    margin-top: 0.125rem;
+    border-radius: 1rem;
+    padding: 6px;
+    background-color: #cbcbcb;
+}
+
 .left {
     display: inline-grid;
 }
@@ -184,6 +211,7 @@ nav {
     margin: auto;
     max-width: 350px;
 }
+
 
 img{
     margin: auto;
