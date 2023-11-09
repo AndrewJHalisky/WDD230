@@ -43,6 +43,11 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
+    form textarea, form input, select {
+        padding: 10px;
+        width: 250px;
+    }
+
     form label {
         display: block;
         padding-top: 1.5rem;
@@ -60,8 +65,8 @@
         display: block;
         width: 8rem;
         margin: auto;
-        margin-top: 1rem;
         border-radius: 1rem;
+        margin-top: 20px;
         padding: 6px;
         background-color: #cbcbcb;
     }
@@ -89,7 +94,7 @@
     .datetime,
     .timesvisit {
         width: 300px;
-        height: 150px;
+        height: 200px;
         padding: 20px;
     }
 
@@ -150,7 +155,7 @@
         color: rgb(0, 0, 0);
     }
 
-    .dis-active {
+    .active {
         color: blue;
     }
 
@@ -194,6 +199,17 @@
         grid-gap: 20px;
     }
 
+    .pictures, .pictures p {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr auto 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .center, .left {
+        display: inline-flex;
+    }
 
     .demographics {
         display: inline-block;

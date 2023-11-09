@@ -157,6 +157,10 @@
         font-weight: 700;
     }
 
+    .dis-active {
+        color: blue;
+    }
+
     .open li {
         display: block;
         width: 100%;
