@@ -1,0 +1,33 @@
+{
+    "familyName": "Peterson",
+    "movedIn": "08/20/2023",
+    "membNum": "5",
+    "bisbrcVisited": "yes",
+    "members": [
+        {
+            "name": "Darren Peterson",
+            "gender": "male",
+            "birthdate": "05/18/1979"
+        },
+        {
+            "name": "Stephanie Peterson",
+            "gender": "female",
+            "birthdate": "11/08/1980"
+        },
+        {
+            "name": "Abigail Peterson",
+            "gender": "female",
+            "birthdate": "06/05/2007"
+        },
+        {
+            "name": "Austin Peterson",
+            "gender": "male",
+            "birthdate": "10/17/2009"
+        },
+        {
+            "name": "Jacob Peterson",
+            "gender": "male",
+            "birthdate": "03/18/2013"
+        }
+    ]
+}
