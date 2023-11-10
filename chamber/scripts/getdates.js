@@ -41,3 +41,10 @@ else {
     visitsDisplay.innerHTML = `Welcome! Let us know if you have any questions.`
 }
 localStorage.setItem('lastVisit', Date.now());
+
+function getTime(event) {
+    const time = document.getElementById("time");
+    time.firstChild.nodeValue = event.timeStamp;
+}
+document.body.addEventListener("keypress", getTime);
+console.log(getTime);
