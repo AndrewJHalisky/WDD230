@@ -10,7 +10,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://andrewjhalisky.github.io/wdd230/chamber/images/trihamptoncoc-logo.webp">
     <meta property="og:url" content="https://andrewjhalisky.github.io/wdd230/chamber/index.html">
-    <title>Tri-Hampton Chamber of Commerce - Join</title>
+    <title>Tri-Hampton Chamber of Commerce - Discover</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -59,9 +59,11 @@
                 <label class="descrpt">Description
                     <textarea rows="8" cols="40" id="descrpt" name="description"></textarea>
                 </label>
-                <span type="hidden" name="timestamp" id="time"></span>
+                <label type="hidden" name="timestamp" step="1"></label>
             </fieldset>
+            <input type="submit" value="Submit" class="submitBtn">
         </form>
+        <input type="hidden" value="time" name="timestamp" id="timestamp">
     </main>
     <footer>
         <p>&copy; <span id="year"></span> Andrew Halisky United States of America | WDD 230 Project</p>

@@ -42,9 +42,5 @@ else {
 }
 localStorage.setItem('lastVisit', Date.now());
 
-function getTime(event) {
-    const time = document.getElementById("time");
-    time.firstChild.nodeValue = event.timeStamp;
-}
-document.body.addEventListener("keypress", getTime);
-console.log(getTime);
+document.getElementById("timestamp").value = Date();
+console.log("#timestamp");

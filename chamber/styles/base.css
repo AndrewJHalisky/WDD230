@@ -19,7 +19,17 @@ header {
 
 h1,
 h2 {
-    font-size: 1.25rem;
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+
+h1,
+h2,
+h3 {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
