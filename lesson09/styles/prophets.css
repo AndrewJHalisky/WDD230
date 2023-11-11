@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(255, 247, 172);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header, main, footer {
+    margin: 1rem;
+    position: relative;
+}
+
+#cards {
+    border: solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+    text-align: center;
+}
