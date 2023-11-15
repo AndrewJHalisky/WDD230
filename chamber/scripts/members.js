@@ -17,7 +17,7 @@ const displayLinks = businesses => {
         image.setAttribute('src', `${business.imageurl}`);
         image.setAttribute('alt', `${busiTitle}`);
         image.setAttribute('loading', 'lazy');
-        image.setAttribute('width', '440');
+        image.setAttribute('width', '460');
         image.setAttribute('height', '440');
         website.textContent = `${business.websiteurl}`;
         info.textContent = `${business.address} ${business.phonenumber}`;
