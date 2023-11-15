@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Halisky">
+    <meta name="description" content="Directory page for the Chamber of Commerce website">
+    <meta property="og:title" content="Tri-Hampton Chamber - Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://andrewjhalisky.github.io/wdd230/chamber/images/trihamptoncoc-logo.webp">
+    <meta property="og:url" content="https://andrewjhalisky.github.io/wdd230/chamber/index.html">
+    <title>Tri-Hampton Chamber of Commerce - Directory</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/faviconcc.ico">
+</head>
+
+<body>
+    <div id="mode">
+        🌛
+    </div>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a class="active" href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="images/trihamptoncoc-logo.webp" alt="trihcoclogo" width="350">
+        <h1>Tri-Hampton <span class="chamber">Chamber of Commerce</span></h1>
+        <h2 class="dis-header">Chamber of Commerce Directory</h2>
+    </header>
+    <main>
+        <div class="grid"></div>
+        <div class="list"></div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Andrew Halisky United States of America | WDD 230 Project</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/daylight.js"></script>
+    <script src="scripts/hambutton.js"></script>
+</body>
+
+</html>
