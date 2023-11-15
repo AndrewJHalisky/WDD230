@@ -13,8 +13,8 @@ const displayLinks = lessons => {
             linksection.appendChild(webLink);
             webLink.setAttribute("href", link.url);
         });
-        list.textContent = `Lesson ${lesson.lesson}: `;
         cards.appendChild(linksection);
+        list.textContent = `Lesson ${lesson.lesson}: `;
     });
 }
 

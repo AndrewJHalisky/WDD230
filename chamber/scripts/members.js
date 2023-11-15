@@ -1,7 +1,4 @@
-const url = 
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
+const url = "https://andrewjhalisky.github.io/wdd230/chamber/data/members.json"
 
 const displayLinks = (businesses) => {
     businesses.forEach((business))
