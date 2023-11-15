@@ -8,16 +8,17 @@ const displayLinks = businesses => {
         let card = document.createElement('section');
         let busiTitle = document.createElement('h3');
         let website = document.createElement('a');
-        let image = document.createElement('img');
         let info = document.createElement('p');
         let membLevel = document.createElement('p');
         let desc = document.createElement('p');
+        let image = document.createElement('img');
 
         busiTitle.textContent = `${business.name}`;
-        image.setAttribute('src', business.image);
-        image.setAttribute('alt', busiTitle);
+        image.setAttribute('src', `${business.imageurl}`);
+        image.setAttribute('alt', `${busiTitle}`);
         image.setAttribute('loading', 'lazy');
-        
+        image.setAttribute('width', '440');
+        image.setAttribute('height', '440');
         website.textContent = `${business.websiteurl}`;
         info.textContent = `${business.address} ${business.phonenumber}`;
         membLevel.textContent = `${business.membershiplevel}`;
