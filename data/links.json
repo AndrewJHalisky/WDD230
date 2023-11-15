@@ -19,7 +19,7 @@
             "links":
             [
                 {
-                    "url": "lesson02/design-principles.html",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson02/design-principles.html",
                     "title": "Design Principles"
                 }
             ]
@@ -29,7 +29,7 @@
             "links":
             [
                 {
-                    "url": "images/complete_combexerc.png",
+                    "url": "https://andrewjhalisky.github.io/wdd230/images/complete_combexerc.png",
                     "title": "Combinators"
                 },
                 {
@@ -41,7 +41,7 @@
                     "title": "Hamburger Button"
                 },                
                 {
-                    "url": "lesson03/chamber-site-plan.html",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson03/chamber-site-plan.html",
                     "title": "Chamber Site Plan"
                 }
             ]
@@ -55,7 +55,7 @@
                     "title": "Psuedo Classes"
                 },
                 {
-                    "url": "chamber/index.html",
+                    "url": "https://andrewjhalisky.github.io/wdd230/chamber/index.html",
                     "title": "Chamber Site Home Page"
                 }
             ]
@@ -65,7 +65,7 @@
             "links":
             [
                 {
-                    "url": "lesson05/bom.html",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson05/bom.html",
                     "title": "Book of Mormon Activity"
                 }
             ] 
@@ -75,11 +75,11 @@
             "links":
             [
                 {
-                    "url": "lesson06/images/landscape.webp",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson06/images/landscape.webp",
                     "title": "WebP Image"
                 },
                 {
-                    "url": "lesson06/responsive-images.html",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson06/responsive-images.html",
                     "title": "Responsive Images"
                 }
             ] 
@@ -89,11 +89,11 @@
             "links":
             [
                 {
-                    "url": "lesson03/lazyload.html",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson03/lazyload.html",
                     "title": "Lazyload Demonstration"
                 },
                 {
-                    "url": "lesson07/bom2.html",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson07/bom2.html",
                     "title": "Book of Mormon Activity 2"
                 }
             ] 
@@ -103,11 +103,11 @@
             "links":
             [
                 {
-                    "url": "lesson08/tablebuild.html",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson08/tablebuild.html",
                     "title": "Tablebuild Chart"
                 },
                 {
-                    "url": "lesson08/form-start/index.html",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson08/form-start/index.html",
                     "title": "Forms Practice"
                 }
             ]             
@@ -117,11 +117,11 @@
             "links":
             [
                 {
-                    "url": "lesson09/new-ward-members.json",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson09/new-ward-members.json",
                     "title": "Ward Directory JSON"
                 },
                 {
-                    "url": "lesson09/prophets.html",
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson09/prophets.html",
                     "title": "Prophets JSON"
                 }
             ]             

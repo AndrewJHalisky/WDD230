@@ -5,17 +5,15 @@ const cards = document.querySelector('#cards');
 const displayLinks = lessons => {
     lessons.forEach(lesson => {
         let linksection = document.createElement('section');
-
+        let list = document.createElement('li');    
+        linksection.appendChild(list);
         lesson.links.forEach(link => {
-            let list = document.createElement('li');
-            let title = document.createElement('p');
             let webLink = document.createElement('a');
-            title.textContent = `${link.title}: `;
-            webLink.textContent = `${link.url}`;
-            linksection.appendChild(title);
+            webLink.textContent = `${link.title} | `;
             linksection.appendChild(webLink);
-            linksection.appendChild(list);
+            webLink.setAttribute("href", link.url);
         });
+        list.textContent = `Lesson ${lesson.lesson}: `;
         cards.appendChild(linksection);
     });
 }
