@@ -125,6 +125,16 @@
                     "title": "Prophets JSON"
                 }
             ]             
+        },
+        {
+            "lesson": "10",
+            "links":
+            [
+                {
+                    "url": "https://andrewjhalisky.github.io/wdd230/lesson10/weather.html",
+                    "title": "Weather API Practice"
+                }
+            ] 
         }
     ]
 }
