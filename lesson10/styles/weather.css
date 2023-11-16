@@ -1,0 +1,16 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+main {
+    background-color: lavender;
+    padding: 10px;
+    width: 500px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+footer {
+    padding: 10px;
+}
