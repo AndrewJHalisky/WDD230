@@ -76,6 +76,7 @@
     }
 
     .events,
+    .no-events,
     .weather,
     .sponsors,
     .placeinfo,
@@ -124,12 +125,9 @@
         width: 800px;
     }
 
-    .events {
-        width: 200px;
-    }
-
-    .weather {
-        width: 600px;
+    .events, .no-events, .weather{
+        width: 400px;
+        height: 250px;
     }
 
     nav {
@@ -199,12 +197,40 @@
         grid-gap: 20px;
     }
 
+    .no-events {
+        padding: 20px;
+    }
+
     .pictures, .pictures p {
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 1fr;
         grid-template-rows: 1fr auto 1fr;
         align-items: center;
         justify-content: center;
+    }
+
+    .grid article {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #cbcbcb;
+        padding: 30px;
+        width: 1200px;
+        margin: auto;
+    }
+
+    .grid section {
+        padding: 20px;
+    }
+
+    .grid section a {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        padding-top: 20px;
+    }
+
+    .menu button {
+        padding: 10px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        margin-bottom: 20px;
     }
 
     .center, .left {

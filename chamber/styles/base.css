@@ -78,6 +78,7 @@ p {
 }
 
 .events,
+.no-events,
 .weather,
 .sponsors,    
 .placeinfo,
@@ -161,6 +162,29 @@ form fieldset{
     margin: 30px;
 }
 
+.menu button {
+    padding: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.grid article {
+    display: grid;
+    background-color: #cbcbcb;
+    padding: 30px;
+    width: 400px;
+    margin: auto;
+}
+
+.grid section {
+    padding: 20px;
+}
+
+.grid section a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding-top: 20px;
+}
+
 .upsouthmpt,
 .lowsouthmpt,
 .northmpt {
@@ -181,15 +205,9 @@ form fieldset{
     width: 350px;
 }
 
-.events {
-    height: 150px;
-    width: 250px;
-    padding: 20px;
-}
-
-.weather {
-    width: 250px;
+.events, .no-events, .weather {
     height: 300px;
+    width: 250px;
     padding: 20px;
 }
 

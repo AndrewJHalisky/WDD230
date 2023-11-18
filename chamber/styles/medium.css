@@ -57,7 +57,7 @@
         padding: 20px;
     }
 
-    .events, .weather, .sponsors, .placeinfo, .datetime, .timesvisit{
+    .events, .no-events, .weather, .sponsors, .placeinfo, .datetime, .timesvisit{
         background-color: #FF7E30;
     }
 
@@ -79,7 +79,11 @@
         margin: auto;
     }
 
-    .events, .weather{
+    .no-events {
+        padding: 20px;
+    }
+
+    .events, .no-events, .weather{
         display: grid;
         height: 150px;
     }
@@ -94,14 +98,16 @@
         width: 450px;
     }
 
-    .events{
+    .events, .no-events{
         grid-column: 1/3;
-        width: 175px;
+        width: 250px;
+        height: 250px;
     }
 
     .weather{
         grid-column: 3/4;
-        width: 305px;
+        width: 250px;
+        height: 250px;
     }
 
     #menu {
@@ -237,6 +243,30 @@
 
     .dis-header {
         margin: 30px;
+    }
+
+    .grid article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #cbcbcb;
+        padding: 30px;
+        width: 700px;
+        margin: auto;
+    }
+
+    .grid section {
+        padding: 20px;
+    }
+
+    .grid section a {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        padding-top: 20px;
+    }
+
+    .menu button {
+        padding: 10px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        margin-bottom: 20px;
     }
 
     .upsouthmpt,

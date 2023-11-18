@@ -40,14 +40,20 @@
         <div class="top">
             <div class="events">
                 <p>Events</p>
+                <br>
+                <p>Calling all Chamber of Commerce Members!</p>
+                <p>The Tri-Hampton Chamber of Commerce Meet & Greet is this Wednesday at 7:00 pm!</p>
+            </div>
+            <div class="no-events">
+                <p>No events happening for now</p>
             </div>
             <div class="weather">
                 <p>Today's Weather:</p>
-                <ul>
-                    <li>Weather: <span id="temp">60</span>&deg;F</li>
-                    <li>Windspeed: <span id="wSpeed">17</span> mph</li>
-                    <li>Windchill: <span id="windChill"></span>&deg;F</li>
-                </ul>
+                <span id="current-temp"></span>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
             </div>
         </div>
         <div class="middle">
@@ -78,9 +84,10 @@
         <p>Last modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getdates.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/daylight.js"></script>
     <script src="scripts/hambutton.js"></script>
+    <script src="scripts/display.js"></script>
 </body>
 
 </html>
