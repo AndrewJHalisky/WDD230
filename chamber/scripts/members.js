@@ -66,14 +66,10 @@ const displayList = businesses => {
         let busiTitle = document.createElement('h3');
         let listLine = document.createElement('p');
         let website = document.createElement('a');
-        // let info = document.createElement('p');
-        // let membLevel = document.createElement('p');
         let desc = document.createElement('p');
 
         busiTitle.textContent = `${business.name}`;
         website.textContent = `${business.websiteurl}`;
-        // info.textContent = `${business.address} | ${business.phonenumber}`;
-        // membLevel.textContent = `Membership Level: ${business.membershiplevel}`;
         listLine.textContent = `${business.address} | ${business.phonenumber} | Membership Level: ${business.membershiplevel}`;
         desc.textContent = `${business.description}`;
 
