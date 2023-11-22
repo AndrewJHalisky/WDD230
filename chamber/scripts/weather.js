@@ -32,23 +32,23 @@ async function forecastFetch() {
             let desc1 = document.createElement('p');
             let temp1 = document.createElement('p');
             let space1 = document.createElement('p');
-            date1.textContent = `Nov ${data.list[3].dt_txt.slice(8,10)}`;
+            date1.textContent = `Nov ${data.list[3].dt_txt.slice(8, 10)}`;
             desc1.textContent = `${data.list[3].weather[0].description}`;
             temp1.textContent = `${data.list[3].main.temp} F`;
-            space1.textContent = `==================`; 
+            space1.textContent = `================`;
             dayTime.appendChild(date1);
             dayTime.appendChild(temp1);
-            dayTime.appendChild(desc1);      
-            dayTime.appendChild(space1);      
+            dayTime.appendChild(desc1);
+            dayTime.appendChild(space1);
 
             let date2 = document.querySelector('p');
             let desc2 = document.createElement('p');
             let temp2 = document.createElement('p');
             let space2 = document.createElement('p');
-            date2.textContent = `Nov ${data.list[11].dt_txt.slice(8,10)}`;
+            date2.textContent = `Nov ${data.list[11].dt_txt.slice(8, 10)}`;
             desc2.textContent = `${data.list[11].weather[0].description}`;
             temp2.textContent = `${data.list[11].main.temp} F`;
-            space2.textContent = `==================`; 
+            space2.textContent = `================`;
             dayTime.appendChild(date2);
             dayTime.appendChild(temp2);
             dayTime.appendChild(desc2);
@@ -57,7 +57,7 @@ async function forecastFetch() {
             let date3 = document.querySelector('p');
             let desc3 = document.createElement('p');
             let temp3 = document.createElement('p');
-            date3.textContent = `Nov ${data.list[19].dt_txt.slice(8,10)}`;
+            date3.textContent = `Nov ${data.list[19].dt_txt.slice(8, 10)}`;
             desc3.textContent = `${data.list[19].weather[0].description}`;
             temp3.textContent = `${data.list[19].main.temp} F`;
             dayTime.appendChild(date3);
