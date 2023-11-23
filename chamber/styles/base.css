@@ -206,7 +206,7 @@ form fieldset{
 }
 
 .events, .no-events, .weather {
-    height: 300px;
+    height: 400px;
     width: 250px;
     padding: 20px;
 }
