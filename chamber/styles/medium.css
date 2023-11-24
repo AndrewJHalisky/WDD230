@@ -103,12 +103,15 @@
 
     .joinBtn {
         position: absolute;
-        transform: translate(-200px, -525px);
+        transform: translate(50px, -215px);
         padding: 15px;
         border-radius: 1rem;
         font-size: 1.5rem;
         background-color: #cbcbcb;
         font-family: 'Plus Jakarta Sans', sans-serif;
+        border: solid;
+        text-decoration: none;
+        color: black
     }
 
     form textarea, form input, select {

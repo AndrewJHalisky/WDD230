@@ -102,6 +102,11 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
+    .commu-events ul{
+        list-style-type: none;
+    }
+    
+
     .datetime,
     .timesvisit,
     .placeinfo {
@@ -122,7 +127,7 @@
         height: 150px;
     }
 
-    .weather ul, .commu-events {
+    .weather ul, .commu-events ul{
         list-style-type: none;
     }
 
@@ -134,12 +139,15 @@
 
     .joinBtn {
         position: absolute;
-        transform: translate(-375px, -475px);
+        transform: translate(50px, -175px);
         padding: 15px;
         border-radius: 1rem;
         font-size: 1.5rem;
         background-color: #cbcbcb;
         font-family: 'Plus Jakarta Sans', sans-serif;
+        border: solid;
+        text-decoration: none;
+        color: black
     }
 
     .join img {
