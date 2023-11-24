@@ -82,10 +82,13 @@
     .placeinfo,
     .datetime,
     .timesvisit,
-    .commu-events,
-    nav{
+    .commu-events{
         background-color: #FF7E30;
         border: solid;
+    }
+
+    nav{
+        background-color: #FF7E30; 
     }
 
     #mode{
