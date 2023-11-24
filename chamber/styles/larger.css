@@ -86,14 +86,9 @@
         background-color: #FF7E30;
     }
 
-    .placeinfo {
-        width: 300px;
-        height: 200px;
-        padding: 20px;
-    }
-
     .datetime,
-    .timesvisit {
+    .timesvisit,
+    .placeinfo {
         width: 300px;
         height: 200px;
         padding: 20px;
@@ -121,8 +116,22 @@
         justify-content: center;
     }
 
+    .joinBtn {
+        position: absolute;
+        transform: translate(-375px, -475px);
+        padding: 15px;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        background-color: #cbcbcb;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .joinBtn:active {
+        background-color: #8a8a8a;        
+    }
+
     .join img {
-        width: 800px;
+        width: 830px;
     }
 
     .events, .no-events, .weather{
@@ -132,7 +141,7 @@
 
     nav {
         padding: 2rem;
-        max-width: 550px;
+        max-width: 100%;
         margin: auto;
     }
 
@@ -152,7 +161,7 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
         color: rgb(0, 0, 0);
     }
-
+    
     .active {
         color: blue;
     }
@@ -171,10 +180,6 @@
 
     nav a:hover {
         border: 3px solid;
-    }
-
-    nav a {
-        color: blue;
     }
 
     .center {

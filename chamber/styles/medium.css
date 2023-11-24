@@ -83,6 +83,27 @@
         padding: 20px;
     }
 
+    .join {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .joinBtn {
+        position: absolute;
+        transform: translate(-200px, -525px);
+        padding: 15px;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        background-color: #cbcbcb;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    form textarea, form input, select {
+        padding: 10px;
+        width: 250px;
+    }
+
     .events, .no-events, .weather{
         display: grid;
         height: 150px;

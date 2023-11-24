@@ -118,6 +118,22 @@ p, form label, .submitBtn, .backBtn {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+.join {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.joinBtn {
+    position: absolute;
+    transform: translate(-75px, -325px);
+    padding: 15px;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: #cbcbcb;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 form label {
     display: block;
     padding-top: 1rem;
@@ -129,6 +145,11 @@ form label {
 
 form fieldset{
     border: none;
+}
+
+form textarea, form input, select {
+    padding: 5px;
+    width: 220px;
 }
 
 .submitBtn, .backBtn {
