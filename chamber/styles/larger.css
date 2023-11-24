@@ -39,7 +39,7 @@
         width: 300px;
     }
 
-    p, form label, .submitBtn, .backBtn {
+    p, form label, .submitBtn, .backBtn, .sponsors a {
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
@@ -71,7 +71,7 @@
         background-color: #cbcbcb;
     }
 
-    .submitBtn:active {
+    .submitBtn:active, .joinBtn:active{
         background-color: #979797;
     }
 
@@ -82,8 +82,24 @@
     .placeinfo,
     .datetime,
     .timesvisit,
-    nav {
+    .commu-events,
+    nav{
         background-color: #FF7E30;
+        border: solid;
+    }
+
+    #mode{
+        background-color: #cbcbcb;
+        padding: 5px;
+        border: solid;
+    }
+
+    .commu-events{
+        padding: 30px;
+        max-width: 835px;
+        height: 300px;
+        margin: auto;
+        font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .datetime,
@@ -106,7 +122,7 @@
         height: 150px;
     }
 
-    .weather ul {
+    .weather ul, .commu-events {
         list-style-type: none;
     }
 
@@ -124,10 +140,6 @@
         font-size: 1.5rem;
         background-color: #cbcbcb;
         font-family: 'Plus Jakarta Sans', sans-serif;
-    }
-
-    .joinBtn:active {
-        background-color: #8a8a8a;        
     }
 
     .join img {
@@ -151,10 +163,10 @@
 
     nav ul li {
         display: inline-block;
+        width: 225px;
     }
 
     nav a {
-        display: flex;
         padding: 1rem;
         align-items: center;
         justify-content: center;
@@ -248,6 +260,7 @@
         align-items: center;
         justify-content: center;
         padding: 20px;
+        border: solid;
     }
 
     .dis-header {
@@ -261,6 +274,7 @@
         width: 300px;
         background-color: #cbcbcb;
         padding: 20px;
+        border: solid;
     }
 
     .sponsors {
@@ -270,18 +284,17 @@
         padding: 20px;
     }
 
-    .sponsor1,
-    .sponsor2 {
-        height: 120px;
-        width: 250px;
-        background-color: #cbcbcb;
+    .sponsors img {
+        width: 100px;
     }
 
+    .sponsor1,
+    .sponsor2,
     .sponsor3 {
-        height: 120px;
-        width: 250px;
-        display: flex;
-        justify-content: center;
+        height: 275px;
+        width: 300px;
+        background-color: #cbcbcb;
+        border: solid;
     }
 
 }

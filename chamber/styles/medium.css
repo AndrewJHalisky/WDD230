@@ -57,9 +57,21 @@
         padding: 20px;
     }
 
-    .events, .no-events, .weather, .sponsors, .placeinfo, .datetime, .timesvisit{
+    .events, .no-events, .weather, .sponsors, .placeinfo, .datetime, .timesvisit, .commu-events{
         background-color: #FF7E30;
+        border: solid;
     }
+
+    .commu-events{
+        padding: 20px;
+        max-width: 500px;
+        height: 300px;
+        transform: translate(0, -30px);
+        margin: auto;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        list-style-type: none;
+    }
+
 
     .placeinfo {
         width: 300px;
@@ -114,6 +126,7 @@
         align-items: center;
         justify-content: center;
     }
+
 
     .join img{
         width: 450px;
@@ -260,6 +273,7 @@
         align-items: center;
         justify-content: center;
         padding: 20px;
+        border: solid;
     }
 
     .dis-header {
@@ -297,6 +311,7 @@
         width: 300px;
         background-color: #cbcbcb;
         padding: 20px;
+        border: solid;
     }
 
     .sponsors, footer {
@@ -305,19 +320,25 @@
     }
 
     .sponsor1, .sponsor2, .sponsor3 {
-        height: 100px;
+        height: 250px;
         width: 455px;
         background-color: #cbcbcb;
         padding: 20px;
+        border: solid;
     }
 
-    .sponsors, footer{
+    .sponsors img {
+        width: 100px;
+    }
+
+    .sponsors, footer {
         padding: 20px;
     }
 
-    .sponsor3{
+    .sponsor3 {
         display: inline-grid;
         justify-content: center;
+        border: solid;
     }
 
 }
