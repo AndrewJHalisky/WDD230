@@ -7,7 +7,7 @@
             "websiteurl": "carlscleaners.org",
             "imageurl": "https://andrewjhalisky.github.io/wdd230/chamber/images/carls_cleaners_logo.webp",
             "membershiplevel": "Silver",
-            "description": "We are a cleaning company that provide cleaning for local schools, stores, or facilities. We are composed of a team of well-trained and experienced janitors who dedicate their time and effort to high-level cleaning."
+            "description": "We are a cleaning company that provides cleaning for local schools, stores, or facilities. We are composed of a team of well-trained and experienced facilities personnel who dedicate their time and effort to high-quality cleaning."
         },
         {
             "name": "Game on-the-Go!",
@@ -16,7 +16,7 @@
             "websiteurl": "gameonthego.org",
             "imageurl": "https://andrewjhalisky.github.io/wdd230/chamber/images/gameongo_logo.webp",
             "membershiplevel": "Silver",
-            "description": "We offer video game rentals for people of all ages who own video game consoles. Our purpose is to give individuals a taste of what certain video games that have never been played before are like. If they enjoy it, then we give them a discount for when they purchase the actual game at a store."
+            "description": "We offer video game rentals for people of all ages. Our purpose is to give individuals a taste of what certain video games that have never been played before are like. If they enjoy it, then we give them a discount for when they purchase the actual game at a store."
         },
         {
             "name": "Global Gadget Foundation",
@@ -25,7 +25,7 @@
             "websiteurl": "globalgadget.org",
             "imageurl": "https://andrewjhalisky.github.io/wdd230/chamber/images/globalgadget_logo.webp",
             "membershiplevel": "Gold",
-            "description": "We believe that a world is a place of freedom and love. We run food and supply drives to families or individuals around the world who are in poverty, or who are desperately in need. We run our drives at different locations (churches, schools, shopping centers) in the community."
+            "description": "We believe that the world is a place of freedom and love. We run food and supply drives to families or individuals around the area who are in poverty, or who are desperately in need. We run our drives at different locations (churches, schools, shopping centers) in the community."
         },
         {
             "name": "Honorable Hamptons",
@@ -34,7 +34,7 @@
             "websiteurl": "honorablehamptons.org",
             "imageurl": "https://andrewjhalisky.github.io/wdd230/chamber/images/school-supplies-logo.webp",
             "membershiplevel": "Gold",
-            "description": "Composed of top creative-writing journalists, we write articles on weekly events both past and present, recap different events in the community, and recognize notable people who make differences in the community, with their permission to write about."
+            "description": "Composed of top creative-writing journalists, we write articles on weekly events both past and present, recap different events in the community, and recognize notable people who make differences in the community."
         },
         {
             "name": "Tim's Tire Replacement Services",
@@ -43,7 +43,7 @@
             "websiteurl": "timetirereplacements.org",
             "imageurl": "https://andrewjhalisky.github.io/wdd230/chamber/images/tims_logo.webp",
             "membershiplevel": "Bronze",
-            "description": "Providng tire replacements for any truck, car, or vehicle necessary. We got plenty of tires to choose from, especially new ones!"
+            "description": "Providing tire replacements for any truck, car, or vehicle. We have plenty of tires to choose from!"
         },
         {
             "name": "Turner's Plumbing Services",
@@ -52,7 +52,7 @@
             "websiteurl": "turnersplumbing.org",
             "imageurl": "https://andrewjhalisky.github.io/wdd230/chamber/images/plumbingservices_logo.webp",
             "membershiplevel": "Silver",
-            "description": "We are a plumbing business that serves people in the Tri-Hamptons. We can provide repairment and installation for pipes and fixtures in your house at anytime! Just call and make an appointment today!"
+            "description": "We are a plumbing business that serves people in the Tri-Hamptons. We can provide repairs and installation for pipes and fixtures in your house at anytime! Just call and make an appointment today!"
         },
         {
             "name": "Umbrellas Galore",
@@ -61,7 +61,7 @@
             "websiteurl": "umbrellasgalore.org",
             "imageurl": "https://andrewjhalisky.github.io/wdd230/chamber/images/umbrellas.webp",
             "membershiplevel": "Silver",
-            "description": "We are an umbrella shop located on Newman Avenue. We have a variety of unqiue and colorful umbrellas to choose from. Prices vary depending on the size and the condition of the umbrella. You can purchase them in the store or order them on our website at umbrellasgalore.org/shop"
+            "description": "We are an umbrella shop located on Newman Avenue. We have a variety of unqiue and colorful umbrellas to choose from. Purchases can be made in-store or on our website at umbrellasgalore.org/shop"
         }
     ]
 }
