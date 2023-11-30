@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inter Tight', sans-serif;
+    background-color: rgb(215, 245, 255);
+    text-align: center;
+}
+
+.socialmedia-links img {
+    float: left;
+    width: 50px;
+    padding: 5px;
+}
+
+header img {
+    width: 400px;
+}
+
+header {
+    background-color: rgb(255, 253, 160);
+    padding: 20px;
+}
+
+.middle, .bottom {
+    display: inline-block;
+    background-color: rgb(255, 253, 160);
+    padding: 20px;
+    margin-top: 30px;
+    width: 90%;
+}
+
+.weather {
+    float: left;
+    width: 50%;
+}
+
+.rentals {
+    float: right;
+    width: 50%;
+}

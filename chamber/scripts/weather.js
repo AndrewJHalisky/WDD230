@@ -65,7 +65,7 @@ async function forecastFetch() {
             dayTime.appendChild(desc3);
         }
         else {
-            throw Error(await response.text())
+            throw Error(await response.text());
         }
     }
     catch (error) {
@@ -73,7 +73,6 @@ async function forecastFetch() {
     }
 }
 forecastFetch();
-
 
 function displayWeather(data) {
     currentTemp.innerHTML = `${data.main.temp} &deg;F`;

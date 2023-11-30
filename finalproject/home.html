@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Halisky">
+    <meta name="description" content="Main portal page for the Scoots Final Project website">
+    <meta property="og:title" fontent="Scoots - Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="website">
+    <meta property="og:url" content="website">
+    <title>Scoots - Home</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <nav class="socialmedia-links">
+        <a href="https://www.facebook.com" class="facebook"><img src="images/facebook_socialmedia_icon.png"></a>
+        <a href="https://www.instagram.com" class="instagram"><img src="images/instagram_socialmedia_icon.png"></a>
+        <a href="https://www.linkedin.com" class="linkedin"><img src="images/linkedin_icon.png"></a>
+    </nav>
+    <header>
+        <img src="images/scoots-logo.webp" alt="scootslogo">
+        <h1>Welcome to Scoots!</h1>
+        <h2>Home of Cozumel Island's Finest Motor Scooter Rental Services!</h2>
+    </header>
+    <main>
+        <div class="top">
+            <div class="scoots-banner">
+                <picture>
+                    <img alt="cozumel" src="images/cozumel_island.jpg">
+                </picture>
+                <a href="reservations.html" class="reserveBtn">Reserve</a>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="weather">
+                <p>Weather</p>
+                <p>Today's Forecast:</p>
+                <span id="todays-temp"></span>
+                <figure>
+                    <img id="weather-icon">
+                    <figcaption></figcaption>
+                </figure>
+                <p>Tomorrow's Forecast:</p>
+                <span id="tomrw-temp"></span>
+            </div>
+            <div class="rentals">
+                <p>Rental Services</p>
+                <br>
+                <p>Rental prices can be rented for either half a day or a full day and can fit 4-5 people at a time.</p>
+                <p>Click below to find out more information about rentals:</p>
+                <a href="rentals.html" class="rentalsBtn">Rentals</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="contact">
+                <p>Contact Us</p>
+                <br>
+                <p>Click below to find our contact information and how you can reach out to u:s</p>
+                <a href="contact.html" class="contactBtn">Contact</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Scoots Inc | WDD230 Final Project | All Rights Reserved</p>
+    </footer>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/modified.js"></script>
+</body>
+
+</html>
