@@ -1,0 +1,1 @@
+const url = "https://andrewjhalisky.github.io/wdd230/finalproject/data/prices.json";

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 650px){
 
     body{
         text-align: center;
@@ -71,7 +71,6 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
         list-style-type: none;
     }
-
 
     .placeinfo {
         width: 300px;

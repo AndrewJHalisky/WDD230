@@ -1,5 +1,5 @@
 const todayTemp = document.querySelector('#todays-temp');
-const tomorrowTemp = document.querySelector('#tmrw-temp');
+const tomorrowTemp = document.querySelector('.tomrw-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const weatherDesc = document.querySelector('figcaption');
 const weatherurl = 'https://api.openweathermap.org/data/2.5/weather?lat=20.50812&lon=-86.92639&&units=imperial&exclude=daily&appid=1e5248c4357544a8ca14d4fb042af5e5';
@@ -21,6 +21,23 @@ async function weatherFetch(){
     }
 }
 weatherFetch();
+
+async function forecastFetch() {
+    const response = await fetch(forecasturl)
+    const data = await response.json();
+    if (response.ok) {
+        let desc = document.createElement('p');
+        let temp = document.createElement('p');
+        desc.textContent = `${data.list[3].weather[0].description}`;
+        temp.innerHTML = `${data.list[3].main.temp} &deg;F`;
+        tomorrowTemp.appendChild(temp);
+        tomorrowTemp.appendChild(desc);
+    }
+    else{
+        throw Error(await response.text());
+    }
+}
+forecastFetch();
 
 function displayWeather(data) {
     todayTemp.innerHTML = `${data.main.temp} &deg;F`;

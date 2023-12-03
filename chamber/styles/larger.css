@@ -39,11 +39,17 @@
         width: 300px;
     }
 
-    p, form label, .submitBtn, .backBtn, .sponsors a {
+    p,
+    form label,
+    .submitBtn,
+    .backBtn,
+    .sponsors a {
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    form textarea, form input, select {
+    form textarea,
+    form input,
+    select {
         padding: 10px;
         width: 250px;
     }
@@ -57,11 +63,12 @@
         margin: auto;
     }
 
-    form fieldset{
+    form fieldset {
         border: none;
     }
 
-    .submitBtn, .backBtn {
+    .submitBtn,
+    .backBtn {
         display: block;
         width: 8rem;
         margin: auto;
@@ -71,7 +78,8 @@
         background-color: #cbcbcb;
     }
 
-    .submitBtn:active, .joinBtn:active{
+    .submitBtn:active,
+    .joinBtn:active {
         background-color: #979797;
     }
 
@@ -82,22 +90,22 @@
     .placeinfo,
     .datetime,
     .timesvisit,
-    .commu-events{
+    .commu-events {
         background-color: #FF7E30;
         border: solid;
     }
 
-    nav{
-        background-color: #FF7E30; 
+    nav {
+        background-color: #FF7E30;
     }
 
-    #mode{
+    #mode {
         background-color: #cbcbcb;
         padding: 5px;
         border: solid;
     }
 
-    .commu-events{
+    .commu-events {
         padding: 30px;
         max-width: 835px;
         height: 300px;
@@ -105,10 +113,10 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
-    .commu-events ul{
+    .commu-events ul {
         list-style-type: none;
     }
-    
+
 
     .datetime,
     .timesvisit,
@@ -130,7 +138,8 @@
         height: 150px;
     }
 
-    .weather ul, .commu-events ul{
+    .weather ul,
+    .commu-events ul {
         list-style-type: none;
     }
 
@@ -157,7 +166,9 @@
         width: 830px;
     }
 
-    .events, .no-events, .weather{
+    .events,
+    .no-events,
+    .weather {
         width: 400px;
         height: 420px;
     }
@@ -184,7 +195,7 @@
         font-family: 'Plus Jakarta Sans', sans-serif;
         color: rgb(0, 0, 0);
     }
-    
+
     .active {
         color: blue;
     }
@@ -229,7 +240,8 @@
         padding: 20px;
     }
 
-    .pictures, .pictures p {
+    .pictures,
+    .pictures p {
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 1fr;
         grid-template-rows: 1fr auto 1fr;
@@ -261,7 +273,8 @@
         margin-bottom: 20px;
     }
 
-    .center, .left {
+    .center,
+    .left {
         display: inline-flex;
     }
 

@@ -7,17 +7,27 @@
     
     .socialmedia-links img {
         float: left;
-        width: 50px;
+        width: 40px;
         padding: 5px;
     }
     
     header img {
-        width: 400px;
+        width: 300px;
     }
     
     header {
         background-color: rgb(255, 253, 160);
         padding: 20px;
+        width: 575px;
+        display: inline-grid;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    h1, h2{
+        grid-column: right;
+        margin: auto;
     }
     
     .middle, .bottom {
@@ -27,14 +37,111 @@
         margin-top: 30px;
         width: 90%;
     }
-    
-    .weather {
-        float: left;
-        width: 50%;
+
+    .navigation a:hover {
+        font-weight: 700;
+    }
+
+    .middle,
+    .bottom {
+        display: grid;
+        background-color: rgb(255, 253, 160);
+        padding: 20px;
+        margin: auto;
+        margin-top: 30px;
+        width: 600px;
+    }
+
+    .rentalsBtn,
+    .contactBtn {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        background-color: rgb(254, 196, 255);
+        border-radius: 1rem;
+        border: solid;
+        border-width: 2px;
+    }
+
+    .reserveBtn {
+        position: absolute;
+        transform: translate(-375px, 650px);
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        background-color: rgb(254, 196, 255);
+        border-radius: 2rem;
+        border: solid;
+        border-width: 2px;
+        font-size: 2rem;
+    }
+
+    .reserveBtn:active, .rentalsBtn:active, .contactBtn:active{
+        background-color: rgb(211, 163, 211);
+    }
+
+    #menu::before {
+        content: "☰";
     }
     
-    .rentals {
-        float: right;
-        width: 50%;
+    #menu.open::before {
+        content: "❌";
     }
+
+    #menu {
+        border: 1px solid;
+        padding: 3px 7px 6px;
+        position: absolute;
+        top: 1.45rem;
+        right: 1rem;
+    }
+
+    nav{
+        margin: auto;
+    }
+
+    nav .navigation {
+        font-size: 1.25em;
+        background-color: rgb(254, 196, 255);
+        margin: auto;
+    }
+
+    nav li a:hover {
+        color: black;
+        font-weight: 700;
+    }
+
+    nav {
+        padding: 2rem;
+        max-width: 100%;
+    }
+
+    nav ul li{
+        width: 200px;
+        display: none;
+    }
+
+    nav ul {
+        font-size: 1.25em;
+    }
+
+    nav a {
+        padding: 1rem;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    .open li {
+        display: block;
+        width: 100%;
+    }
+
+    .open li a {
+        display: block;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
 }
