@@ -9,7 +9,7 @@
                     "fullday": "$30"
                 }
             ],
-            "walk-in": [
+            "walkin": [
                 {
                     "halfday": "$25",
                     "fullday": "$35"
@@ -25,7 +25,7 @@
                     "fullday": "$40"
                 }
             ],
-            "walk-in": [
+            "walkin": [
                 {
                     "halfday": "$35",
                     "fullday": "$45"
@@ -41,7 +41,7 @@
                     "fullday": "$50"
                 }
             ],
-            "walk-in": [
+            "walkin": [
                 {
                     "halfday": "$35",
                     "fullday": "$45"
@@ -57,7 +57,7 @@
                     "fullday": "$70"
                 }
             ],
-            "walk-in": [
+            "walkin": [
                 {
                     "halfday": "$60",
                     "fullday": "$80"
@@ -73,7 +73,7 @@
                     "fullday": "$100"
                 }
             ],
-            "walk-in": [
+            "walkin": [
                 {
                     "halfday": "$85",
                     "fullday": "$125"
@@ -89,7 +89,7 @@
                     "fullday": "$85"
                 }
             ],
-            "walk-in": [
+            "walkin": [
                 {
                     "halfday": "$70",
                     "fullday": "$90"
