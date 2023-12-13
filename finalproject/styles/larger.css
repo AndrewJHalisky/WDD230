@@ -43,7 +43,7 @@
     nav {
         padding: 2rem;
         width: 100%;
-        background-color: rgb(254, 196, 255);
+        background-color: #bbfaa0;
     }
 
     nav ul li {
@@ -86,7 +86,7 @@
     }
 
     .active {
-        color: rgb(190, 0, 190);
+        color: #69845d;
     }
 
     .rentalsBtn,
@@ -95,7 +95,7 @@
         text-decoration: none;
         color: rgb(0, 0, 0);
         padding: 10px;
-        background-color: rgb(254, 196, 255);
+        background-color: #bbfaa0;
         border-radius: 1rem;
         border: solid;
         border-width: 2px;
@@ -107,7 +107,7 @@
         text-decoration: none;
         color: rgb(0, 0, 0);
         padding: 40px;
-        background-color: rgb(254, 196, 255);
+        background-color: #bbfaa0;
         border-radius: 2rem;
         border: solid;
         border-width: 2px;
@@ -115,9 +115,10 @@
     }
 
     .reserveBtn:active,
-    .rentalsBtn:active,
-    .contactBtn:active {
-        background-color: rgb(211, 163, 211);
+    .submitBtn:active,
+    .contactBtn:active,
+    .rentalsBtn:active {
+        background-color: #8ebc7b;
     }
 
     #menu {
@@ -160,7 +161,7 @@
     }
 
     :root {
-        --back: rgb(254, 196, 255);
+        --back: #bbfaa0;
         --back2: rgb(175, 171, 225);
         --zebra: hsl(174, 22%, 67%);
         --forelight: rgb(0, 0, 0);
@@ -175,15 +176,14 @@
     form input,
     select {
         padding: 8px;
-        width: 220px;
+        width: 225px;
     }
 
     form label {
         display: block;
         padding-top: 1.5rem;
-        width: 20%;
         padding: 10px;
-        max-width: 10rem;
+        max-width: 7rem;
         margin: auto;
     }
 
@@ -199,11 +199,7 @@
         width: 120px;
         font-size: 1rem;
         border-radius: 20px;
-        background-color: rgb(254, 196, 255);
-    }
-
-    .submitBtn:active, .backBtn:active{
-        background-color: rgb(211, 163, 211);
+        background-color: #bbfaa0;
     }
 
     .rentalAgreements {
@@ -215,6 +211,20 @@
 
     .rentalAgreements li {
         text-align: left;
+    }
+
+    .scooterpics {
+        background-color: rgb(175, 171, 225);
+        padding: 20px;
+    }
+
+    .scooterpics picture {
+        display: inline-grid;
+    }
+
+    .scooterpics p {
+        padding: 10px;
+        display: grid;
     }
 
     .contactinfo {

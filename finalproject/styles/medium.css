@@ -57,7 +57,7 @@
         text-decoration: none;
         color: rgb(0, 0, 0);
         padding: 10px;
-        background-color: rgb(254, 196, 255);
+        background-color: #bbfaa0;
         border-radius: 1rem;
         border: solid;
         border-width: 2px;
@@ -69,15 +69,15 @@
         text-decoration: none;
         color: rgb(0, 0, 0);
         padding: 20px;
-        background-color: rgb(254, 196, 255);
+        background-color: #bbfaa0;
         border-radius: 2rem;
         border: solid;
         border-width: 2px;
         font-size: 2rem;
     }
 
-    .reserveBtn:active, .rentalsBtn:active, .contactBtn:active{
-        background-color: rgb(211, 163, 211);
+    .reserveBtn:active, .rentalsBtn:active, .contactBtn:active, .submitBtn:active{
+        background-color: #8ebc7b;
     }
 
     #menu::before {
@@ -102,7 +102,7 @@
 
     nav .navigation {
         font-size: 1.25em;
-        background-color: rgb(254, 196, 255);
+        background-color: #bbfaa0;
         margin: auto;
     }
 
@@ -126,7 +126,7 @@
     }
 
     nav a {
-        padding: 1rem;
+        padding: 1.25rem;
         color: rgb(0, 0, 0);
         text-decoration: none;
     }
@@ -175,7 +175,7 @@
     }
 
     :root {
-        --back: rgb(254, 196, 255);
+        --back: #bbfaa0;
         --back2: rgb(175, 171, 225);
         --zebra: hsl(174, 22%, 67%);
         --forelight: rgb(0, 0, 0);
@@ -195,9 +195,8 @@
     form label {
         display: block;
         padding-top: 1.5rem;
-        width: 30%;
         padding: 10px;
-        max-width: 10rem;
+        max-width: 7rem;
         margin: auto;
     }
 
@@ -209,7 +208,7 @@
         width: 120px;
         font-size: 1rem;
         border-radius: 20px;
-        background-color: rgb(254, 196, 255);
+        background-color: #bbfaa0;
     }
 
     .submitBtn, form textarea, form input {
