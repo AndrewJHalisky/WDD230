@@ -89,6 +89,11 @@
         color: #69845d;
     }
 
+    .rentals p {
+        width: 500px;
+        margin: auto;
+    }
+
     .rentalsBtn,
     .contactBtn,
     .backBtn {
@@ -183,8 +188,13 @@
         display: block;
         padding-top: 1.5rem;
         padding: 10px;
-        max-width: 7rem;
+        max-width: 8rem;
         margin: auto;
+    }
+
+    form .fname, .lname, .email, .number, .date {
+        display: block;
+        text-align: left;
     }
 
     form fieldset {

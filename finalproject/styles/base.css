@@ -194,6 +194,11 @@ form label {
     margin: auto;
 }
 
+form .fname, .lname, .email, .number, .date {
+    display: block;
+    text-align: left;
+}
+
 form fieldset {
     border: none;
 }

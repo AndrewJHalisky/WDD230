@@ -42,6 +42,11 @@
         font-weight: 700;
     }
 
+    .rentals p {
+        width: 500px;
+        margin: auto;
+    }
+
     .middle,
     .bottom {
         display: grid;
@@ -202,6 +207,11 @@
 
     form fieldset {
         border: none;
+    }
+
+    form .fname, .lname, .email, .number, .date {
+        display: block;
+        text-align: left;
     }
 
     .submitBtn {
