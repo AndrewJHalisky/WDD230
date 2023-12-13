@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Halisky">
+    <meta name="description" content="Page for resrvation forms being completed">
+    <meta property="og:title" fontent="Scoots - Rentals">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content=
+    "https://andrewjhalisky.github.io/wdd230/finalproject/images/scoots-logo.webp">
+    <meta property="og:url" content="https://andrewjhalisky.github.io/wdd230/finalproject/home.html">
+    <title>Scoots - Reservations</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <nav>
+        <ul class="socialmedia-links">
+            <a href="https://www.facebook.com" class="facebook"><img src="images/facebook_socialmedia_icon.png"></a>
+            <a href="https://www.instagram.com" class="instagram"><img src="images/instagram_socialmedia_icon.png"></a>
+            <a href="https://www.linkedin.com" class="linkedin"><img src="images/linkedin_icon.png"></a>
+        </ul>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="reservations.html" class="active">Reservations</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="images/scoots-logo.webp" alt="scootslogo">
+        <h1>Reservation Agreement Form</h1>
+    </header>
+    <main>
+        <form method="get" action="reservations.html">
+            <br>
+            <h2>Thank you for filling out your Reservation!</h2>
+            <br>
+            <p>You will soon recieve an email confirming your reservation time for your selected date. Enjoy your scooter!</p>
+            <br>
+            <input type="submit" value="Go Back" class="backBtn">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Scoots Inc | WDD230 Final Project | All Rights Reserved</p>
+    </footer>
+    <script src="scripts/copyright.js"></script>
+    <script src="scripts/hambutton.js"></script>
+</body>
+</html>

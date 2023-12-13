@@ -34,7 +34,8 @@
         margin: auto;
     }
 
-    h1, h2{
+    h1,
+    h2 {
         grid-column: right;
         margin: auto;
     }
@@ -60,7 +61,7 @@
         text-decoration: none;
     }
 
-    nav a:hover {
+    nav .navigation a:hover {
         border: 3px solid;
         font-weight: 700;
     }
@@ -89,7 +90,8 @@
     }
 
     .rentalsBtn,
-    .contactBtn {
+    .contactBtn,
+    .backBtn {
         text-decoration: none;
         color: rgb(0, 0, 0);
         padding: 10px;
@@ -112,7 +114,9 @@
         font-size: 2rem;
     }
 
-    .reserveBtn:active, .rentalsBtn:active, .contactBtn:active{
+    .reserveBtn:active,
+    .rentalsBtn:active,
+    .contactBtn:active {
         background-color: rgb(211, 163, 211);
     }
 
@@ -121,6 +125,119 @@
     }
 
     footer {
+        padding: 10px;
+    }
+
+    table {
+        width: 1000px;
+        margin: 10px auto;
+    }
+
+    th {
+        width: 500px;
+    }
+
+    td {
+        width: 300px;
+        padding: 5px;
+    }
+
+    .pricingtitle {
+        padding: 10px;
+    }
+
+    caption {
+        padding: 10px;
+        caption-side: bottom;
+        font: .85rem;
+        color: var(--back);
+    }
+
+    tr:first-child th,
+    .highlight {
+        background-color: var(--back);
+        color: var(--forelight);
+    }
+
+    :root {
+        --back: rgb(254, 196, 255);
+        --back2: rgb(175, 171, 225);
+        --zebra: hsl(174, 22%, 67%);
+        --forelight: rgb(0, 0, 0);
+        --borderlight: rgb(207, 207, 207);
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: var(--zebra);
+    }
+   
+    form textarea,
+    form input,
+    select {
+        padding: 8px;
+        width: 220px;
+    }
+
+    form label {
+        display: block;
+        padding-top: 1.5rem;
+        width: 20%;
+        padding: 10px;
+        max-width: 10rem;
+        margin: auto;
+    }
+
+    form fieldset {
+        border: none;
+    }
+
+    .submitBtn, .backBtn, form textarea, form input {
+        font-family: 'Inter Tight', sans-serif;
+    }
+
+    .submitBtn, .backBtn {
+        width: 120px;
+        font-size: 1rem;
+        border-radius: 20px;
+        background-color: rgb(254, 196, 255);
+    }
+
+    .submitBtn:active, .backBtn:active{
+        background-color: rgb(211, 163, 211);
+    }
+
+    .rentalAgreements {
+        background-color: hsl(174, 22%, 67%);
+        padding: 50px;
+        width: 800px;
+        margin: auto;
+    }
+
+    .rentalAgreements li {
+        text-align: left;
+    }
+
+    .contactinfo {
+        background-color: rgb(175, 171, 225);
+        padding: 30px;
+        width: 700px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .contactinfo, .rentalAgreements {
+        margin-top: 20px;
+    }
+
+    .maps {
+        background-color: hsl(174, 22%, 67%);
+        width: 700px;
+        margin: auto;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .maps p {
         padding: 10px;
     }
 }

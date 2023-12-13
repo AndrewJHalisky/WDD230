@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Halisky">
+    <meta name="description" content="Page containing Contact Information and location for Scoots">
+    <meta property="og:title" fontent="Scoots - Contact Us!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://andrewjhalisky.github.io/wdd230/finalproject/images/scoots-logo.webp">
+    <meta property="og:url" content="https://andrewjhalisky.github.io/wdd230/finalproject/home.html">
+    <title>Scoots - Contact Us!</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="socialmedia-links">
+            <a href="https://www.facebook.com" class="facebook"><img src="images/facebook_socialmedia_icon.png"></a>
+            <a href="https://www.instagram.com" class="instagram"><img src="images/instagram_socialmedia_icon.png"></a>
+            <a href="https://www.linkedin.com" class="linkedin"><img src="images/linkedin_icon.png"></a>
+        </ul>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="contact.html"  class="active">Contact Us</a></li>
+        </ul>
+    </nav>
+    <header>
+        <img src="images/scoots-logo.webp" alt="scootslogo">
+        <h1>Contact Us Today!</h1>
+        </div>
+    </header>
+    <main>
+        <div class="contactinfo">
+            <h3>Contact Information: </h3>
+            <br>
+            <p>Hours:</p>
+            <p>Mon-Fri: 7am - 8pm</p>
+            <p>Sat-Sun: 9am - 8:30pm</p>
+            <br>
+            <p>Playa del Carmen-Cozumel Ferry Dock Location: </p>
+            <br>
+            <p>Address: Av Rafael E Melgar 350, Centro, 77600, Cozumel Q.R. Mexico</p>
+            <p>Phone Number: +52 987 331 2456</p>
+            <br>
+            <p>Puerta Maya Terminal Location: </p>
+            <br>
+            <p>Address: Av Claudio Vanto, 77421, Cozumel Q.R. Mexico</p>
+            <p>Phone Number: +52 987 778 6574</p>
+        </div>
+        <div class="maps">
+            <br>
+            <p>Locations: </p>
+            <br>
+            <p>Playa del Carmen-Cozumel Ferry Dock Location</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1302.1463255509902!2d-86.9500387950855!3d20.510811851616513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1702429808206!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Puerta Maya Terminal Location</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2190.4170554983607!2d-86.97193615207271!3d20.477447164910327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1702430484584!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form method="get" action="contactcomplete.html">
+            <br>
+            <h3>Fill out this form below to reach out to us: </h3>
+            <label class="fname">First Name* <input type="text" id="fname" name="firstname" required></label>
+            <label class="lname">Last Name* <input type="text" id="lname" name="lastname" required></label>
+            <label class="email">Email* <input type="email" id="email" name="email"
+                    pattern="[a-zA-Z0-9._%+-]+@gmail\.com$" title="Please enter your email address"
+                    required></label>
+            <label class="accomds">Comments
+                    <textarea rows="8" cols="40" id="descrpt" name="description"></textarea>
+            </label>
+            <input type="submit" value="Submit" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Scoots Inc | WDD230 Final Project | All Rights Reserved</p>
+    </footer>
+    <script src="scripts/copyright.js"></script>
+    <script src="scripts/hambutton.js"></script>
+</body>
+
+</html>
